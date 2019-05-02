@@ -805,4 +805,12 @@ function RuneWizardHasteCalc(Energy)
 	local SkillTime = Energy / 20 + 30
 	
 	return SkillEffect1, SkillEffect2, SkillTime
-end																						
+end
+
+-- SkillID: 233: Expansion of Wizardry - (Dark Wizard, Soul Master, Grand Master, Rune Spell Master, Grand Rune Master, Grand Rune Wizard)
+function WizardExpansionWizardryCalc(Class, Energy)
+	local SkillEffect = Energy / 9 * 0.20
+	local SkillTime = 1800
+
+	return SkillEffect, SkillTime
+end																					

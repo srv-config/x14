@@ -987,3 +987,21 @@ function RuneWizardPlasmaBallCalcDamage_Level2(InDamage, Strength, Dexterity, Vi
 	
 	return OutDamage
 end
+
+-- SkillID: 380: Expansion of Wizardry Power Up - (Dark Wizard, Soul Master, Grand Master, Rune Spell Master, Grand Rune Master, Grand Rune Wizard)
+function WizardExpansionWizardryCalc_Level1(Class, Energy, MagicDamageMax, SkillTreeValue)
+	local SkillEffect1 = Energy / 9 * 0.20
+	local SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue
+	local SkillTime = 1800
+
+	return SkillEffect1, SkillEffect2, SkillTime
+end
+
+-- SkillID: 383: Expansion of Wizardry Mastery - (Dark Wizard, Soul Master, Grand Master, Rune Spell Master, Grand Rune Master, Grand Rune Wizard)
+function WizardExpansionWizardryCalc_Level2(Class, Energy, MagicDamageMax, SkillTreeValue)
+	local SkillEffect1 = Energy / 9 * 0.20
+	local SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue
+	local SkillTime = 1800
+
+	return SkillEffect1, SkillEffect2, SkillTime
+end

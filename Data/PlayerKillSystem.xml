@@ -29,6 +29,7 @@
 //	PointDeductionDivisor: Divisor which will apply on PK Points deduction formula: MonsterLevel/PointDeductionDivisor
 //	MurdererPointIncrease: PK points to increase for each additional kill at murdered level (3)
 //	LimitPKCount: Maximum count of kills single character may perform, after kills count reduces killing is possible again
+//	LiftPKPartyRestriction: Lifts a restriction of creating a party with murderes, 0/1
 //	Description: Used for logs, editors and in-file description purpose only
 //
 // ### PlayerKillSystem::PKClearCommand ###
@@ -69,7 +70,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<PlayerKillSystem DisablePKLevelIncrease="0" DisablePenalty="0" PKCanUseShops="0" PKCanUseMapMove="0" DropExpensiveItems="0" MaxItemLevelDrop="8" PointDeductionDivisor="2" MurdererPointIncrease="3600" LimitPKCount="9999">
+<PlayerKillSystem DisablePKLevelIncrease="0" DisablePenalty="0" PKCanUseShops="0" PKCanUseMapMove="0" DropExpensiveItems="0" MaxItemLevelDrop="8" PointDeductionDivisor="2" MurdererPointIncrease="3600" LimitPKCount="9999" LiftPKPartyRestriction="1">
 <PKClearCommand Enable="1" Cost="1000000" CostMultiplyByKillCount="1" />
 	<General>
 		<PK Level="3" ReqPoint="0" ItemLoseRateOnMonsterKill="6" ItemLoseRateOnPlayerKill="0" ZenDeductionRateOnMonsterKill="4" ZenDeductionRateOnPlayerKill="0" WarpChargeMultiplier="1" CanSummonByDarkLord="1" CanTeleportByMarry="1" Description="Normal" />
