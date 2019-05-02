@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<MasterSkillTree4th>
+	<Class ID="1">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1142" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="2">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1141" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="3">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1141" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="4">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1146" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="161" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="5">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1141" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="6">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1142" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="7">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1141" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="8">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1141" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+	<Class ID="9">
+		<Skill TableCondition="0" SlotNumber="0" SkillIndex="1137" PointCondition1="20" NeedPoint1="1" MaxPoint1="10" PointCondition2="45" NeedPoint2="1" MaxPoint2="20" PointCondition3="65" NeedPoint3="1" MaxPoint3="30" FormulaID="152" />
+		<Skill TableCondition="0" SlotNumber="1" SkillIndex="1138" PointCondition1="40" NeedPoint1="1" MaxPoint1="10" PointCondition2="80" NeedPoint2="1" MaxPoint2="20" PointCondition3="120" NeedPoint3="1" MaxPoint3="30" FormulaID="153" />
+		<Skill TableCondition="0" SlotNumber="2" SkillIndex="1139" PointCondition1="60" NeedPoint1="1" MaxPoint1="10" PointCondition2="100" NeedPoint2="1" MaxPoint2="20" PointCondition3="140" NeedPoint3="1" MaxPoint3="30" FormulaID="154" />
+		<Skill TableCondition="1" SlotNumber="0" SkillIndex="1142" PointCondition1="10" NeedPoint1="1" MaxPoint1="10" PointCondition2="35" NeedPoint2="1" MaxPoint2="20" PointCondition3="60" NeedPoint3="1" MaxPoint3="30" FormulaID="157" />
+		<Skill TableCondition="1" SlotNumber="1" SkillIndex="1143" PointCondition1="30" NeedPoint1="1" MaxPoint1="10" PointCondition2="70" NeedPoint2="1" MaxPoint2="20" PointCondition3="110" NeedPoint3="1" MaxPoint3="30" FormulaID="158" />
+		<Skill TableCondition="1" SlotNumber="2" SkillIndex="1144" PointCondition1="50" NeedPoint1="1" MaxPoint1="10" PointCondition2="90" NeedPoint2="1" MaxPoint2="20" PointCondition3="130" NeedPoint3="1" MaxPoint3="30" FormulaID="159" />
+	</Class>
+</MasterSkillTree4th>

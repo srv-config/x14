@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Change in this file require modification on client side of proper mix in Mix.bmd
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	
+// ### ArchangelWeapon::Upgrade ###
+//	SuccessRate: Mix success rate, 1-100
+//
+// ### ArchangelWeapon::Upgrade::Item ###
+//	NeedCat: Input item category
+//	NeedIndex: Input item index
+//	ResultCat: Result item category
+//	ResultIndex: Result item index
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ For item category and index refer to ItemList.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<ArchangelWeapon>
+	<Upgrade SuccessRate="100"> <!-- n/100 -->
+		<Item NeedCat="0" NeedIndex="19" ResultCat="0" ResultIndex="51" />
+		<Item NeedCat="2" NeedIndex="13" ResultCat="2" ResultIndex="25" />
+		<Item NeedCat="4" NeedIndex="18" ResultCat="4" ResultIndex="30" />
+		<Item NeedCat="5" NeedIndex="10" ResultCat="5" ResultIndex="49" />
+		<Item NeedCat="5" NeedIndex="36" ResultCat="5" ResultIndex="50" />
+		<Item NeedCat="0" NeedIndex="60" ResultCat="0" ResultIndex="61" />
+		<Item NeedCat="3" NeedIndex="26" ResultCat="3" ResultIndex="27" />
+		<Item NeedCat="2" NeedIndex="34" ResultCat="2" ResultIndex="35" />
+	</Upgrade>
+</ArchangelWeapon>

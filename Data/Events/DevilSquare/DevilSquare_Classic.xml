@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ IMPORTANT: The event must have its monsters defined only in DevilSquare_Classic_Monsters.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### DevilSquare_Classic ###
+//	Enable: Allow to activate or disable the event, 0/1
+//	MaxPlayerPerRoom: Maximum players count that can participate each event level in a single cycle
+//
+// ### DevilSquare_Classic::Time ###
+//	Close: Time to close the event after notification period, seconds
+//	ToOpen: Time to open the event from notification moment, minutes
+//	PlayDuration: Duration of the event, minutes
+//
+// ### DevilSquare_Classic::Schedule::Start ###
+//	Hour: Start hour of the event, 0-23
+//	Minute: Start minute of the event, 0-59
+//
+// ### DevilSquare_Classic::EntryLevel::Square ###
+//	Level: Level of the event the the configuration applies to
+//	MinLevel: Minimum level of player to allow entry to specified event level
+//	MaxLevel: Maximum level of player to allow entry to specified event level, max is currently 800
+//
+// ### DevilSquare_Classic::MonsterAppearanceSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	MonsterIndex: Index of monster to spawn, see MonsterList.xml
+//	SpawnStartTime: Time of the event (minute) the monster will START spawning at
+//	SpawnEndTime: Time of the event (minute) the monster will STOP spawning at
+//	Name: Name of the monster, used for logging and in-file description purpose
+//
+// ### DevilSquare_Classic::BossAppearanceSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	MonsterIndex: Index of monster to spawn, see MonsterList.xml
+//	SpawnTime: Time of the event (minute) the monster will spawn at
+//	StartX: Start X Coordinate the monster will spawn at, must be higher than StartY
+//	StartY: Start Y Coordinate the monster will spawn at, must be lower than StartX
+//	EndX: End X Coordinate the monster will spawn at, must be higher than EndY 
+//	EndY: End Y Coordinate the monster will spawn at, must be lower than EndX
+//	Name: Name of the monster, used for logging and in-file description purpose
+//
+// ### DevilSquare_Classic::RankingBonusSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	RankingPlace: Ranking place definition, max 4 per event level, configuration starts from 0
+//	ExpBonus: Exp reward to apply for winning the event at specified place
+//	ZenBonus: Zen reward to apply for winning the event at specified place
+//
+// ### DevilSquare_Classic::RewardExpSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	Multiplier: Multiplier of reward exp (received after completing the event)
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<DevilSquare_Classic Enable="1" MaxPlayerPerRoom="15">
+	<Time Close="35" ToOpen="5" PlayDuration="20" />
+
+	<Schedule>
+		<Start Hour="3" Minute="20" />
+		<Start Hour="3" Minute="50" />
+		<Start Hour="5" Minute="20" />
+		<Start Hour="7" Minute="20" />
+		<Start Hour="9" Minute="20" />
+		<Start Hour="11" Minute="20" />
+		<Start Hour="13" Minute="20" />
+		<Start Hour="15" Minute="20" />
+		<Start Hour="17" Minute="20" />
+		<Start Hour="19" Minute="20" />
+		<Start Hour="21" Minute="20" />
+		<Start Hour="21" Minute="50" />
+		<Start Hour="22" Minute="20" />
+		<Start Hour="22" Minute="50" />
+		<Start Hour="23" Minute="20" />
+		<Start Hour="23" Minute="50" />
+		<Start Hour="0" Minute="20" />
+		<Start Hour="0" Minute="50" />
+		<Start Hour="1" Minute="20" />
+		<Start Hour="1" Minute="50" />
+		<Start Hour="2" Minute="20" />
+		<Start Hour="2" Minute="50" />
+	</Schedule>
+	
+	<EntryLevel>
+		<Square Level="0" MinLevel="50"  MaxLevel="199" /> <!-- Devil Square 1 -->
+		<Square Level="1" MinLevel="200" MaxLevel="299" /> <!-- Devil Square 2 -->
+		<Square Level="2" MinLevel="300" MaxLevel="399" /> <!-- Devil Square 3 -->
+		<Square Level="3" MinLevel="400" MaxLevel="549" /> <!-- Devil Square 4 -->
+		<Square Level="4" MinLevel="550" MaxLevel="649" /> <!-- Devil Square 5 -->
+		<Square Level="5" MinLevel="650" MaxLevel="769" /> <!-- Devil Square 6 -->
+		<Square Level="6" MinLevel="770" MaxLevel="MAX" /> <!-- Devil Square 7 -->
+	</EntryLevel>
+	
+	<MonsterAppearanceSettings>
+	<!-- Devil Square 1 -->
+		<Square Level="0" MonsterIndex="17"	 SpawnStartTime="0"	 SpawnEndTime="7"	Name="Cyclops" />
+		<Square Level="0" MonsterIndex="15"	 SpawnStartTime="0"	 SpawnEndTime="7"	Name="Skeleton Archer" />
+		<Square Level="0" MonsterIndex="5"	 SpawnStartTime="5"	 SpawnEndTime="14"	Name="Hell Hound" />
+		<Square Level="0" MonsterIndex="8"	 SpawnStartTime="5"	 SpawnEndTime="14"	Name="Poison Bull Fighter" />
+		<Square Level="0" MonsterIndex="36"	 SpawnStartTime="12" SpawnEndTime="20"	Name="Shadow" />
+	<!-- Devil Square 2 -->
+		<Square Level="1" MonsterIndex="41"	 SpawnStartTime="0"	 SpawnEndTime="7"	Name="Death Cow" />
+		<Square Level="1" MonsterIndex="37"	 SpawnStartTime="0"	 SpawnEndTime="7"	Name="Devil" />
+		<Square Level="1" MonsterIndex="35"	 SpawnStartTime="5"	 SpawnEndTime="14"	Name="Death Gorgon" />
+		<Square Level="1" MonsterIndex="180" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Schriker 2" />
+		<Square Level="1" MonsterIndex="64"	 SpawnStartTime="12" SpawnEndTime="20"	Name="Ogre Archer" />
+	<!-- Devil Square 3 -->
+		<Square Level="2" MonsterIndex="294" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Ax Warrior" />
+		<Square Level="2" MonsterIndex="60"	 SpawnStartTime="0"	 SpawnEndTime="7"	Name="Bloody Wolf" />
+		<Square Level="2" MonsterIndex="190" SpawnStartTime="5"	 SpawnEndTime="14"	Name="DDeath Angel 4" />
+		<Square Level="2" MonsterIndex="71" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Mega Crust" />
+		<Square Level="2" MonsterIndex="61"	 SpawnStartTime="12" SpawnEndTime="20"	Name="Beam Knight" />
+		<Square Level="2" MonsterIndex="73"	 SpawnStartTime="12" SpawnEndTime="20"	Name="Drakan" />
+	<!-- Devil Square 4 -->
+		<Square Level="3" MonsterIndex="290" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Lizard Warrior" />
+		<Square Level="3" MonsterIndex="57"	 SpawnStartTime="0"	 SpawnEndTime="7"	Name="Iron Wheel" />
+		<Square Level="3" MonsterIndex="70"	 SpawnStartTime="5"	 SpawnEndTime="14"	Name="Queen Rainier" />
+		<Square Level="3" MonsterIndex="293" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Poison Golem" />
+		<Square Level="3" MonsterIndex="74"	 SpawnStartTime="12" SpawnEndTime="20"	Name="Alpha Crust" />
+		<Square Level="3" MonsterIndex="292" SpawnStartTime="12" SpawnEndTime="20"	Name="Queen Bee" />
+	<!-- Devil Square 5 -->
+		<Square Level="4" MonsterIndex="573" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Crypta" />
+		<Square Level="4" MonsterIndex="574" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Crypos" />
+		<Square Level="4" MonsterIndex="553" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Berserker Warrior" />
+		<Square Level="4" MonsterIndex="360" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Dreadfear" />
+		<Square Level="4" MonsterIndex="557" SpawnStartTime="12" SpawnEndTime="20"	Name="Sapi Queen" />
+		<Square Level="4" MonsterIndex="556" SpawnStartTime="12" SpawnEndTime="20"	Name="Genocider Warrior" />
+	<!-- Devil Square 6 -->
+		<Square Level="5" MonsterIndex="449" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Blaze Napin" />
+		<Square Level="5" MonsterIndex="575" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Condra" />
+		<Square Level="5" MonsterIndex="576" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Narcondra" />
+		<Square Level="5" MonsterIndex="554" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Kentauros Warrior" />
+		<Square Level="5" MonsterIndex="555" SpawnStartTime="12" SpawnEndTime="20"	Name="Gigantis Warrior" />
+		<Square Level="5" MonsterIndex="557" SpawnStartTime="12" SpawnEndTime="20"	Name="Sapi Queen" />
+	<!-- Devil Square 7 -->
+		<Square Level="6" MonsterIndex="573" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Crypta" />
+		<Square Level="6" MonsterIndex="574" SpawnStartTime="0"	 SpawnEndTime="7"	Name="Crypos" />
+		<Square Level="6" MonsterIndex="360" SpawnStartTime="5"	 SpawnEndTime="14"	Name="DreadFear" />
+		<Square Level="6" MonsterIndex="553" SpawnStartTime="5"	 SpawnEndTime="14"	Name="Berserker Warrior" />
+		<Square Level="6" MonsterIndex="556" SpawnStartTime="12" SpawnEndTime="20"	Name="Genocider Warrior" />
+		<Square Level="6" MonsterIndex="557" SpawnStartTime="12" SpawnEndTime="20"	Name="Sapi Queen" />
+	</MonsterAppearanceSettings>
+
+	<BossAppearanceSettings>
+	<!-- Devil Square 1 -->
+		<Square Level="0" MonsterIndex="18" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Gorgon" />
+		<Square Level="0" MonsterIndex="18" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Gorgon" />
+		<Square Level="0" MonsterIndex="18" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Gorgon" />
+		<Square Level="0" MonsterIndex="18" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Gorgon" />
+		<Square Level="0" MonsterIndex="18" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Gorgon" />
+	<!-- Devil Square 2 -->
+		<Square Level="1" MonsterIndex="65" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Elite Ogre" />
+		<Square Level="1" MonsterIndex="65" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Elite Ogre" />
+		<Square Level="1" MonsterIndex="65" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Elite Ogre" />
+		<Square Level="1" MonsterIndex="65" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Elite Ogre" />
+		<Square Level="1" MonsterIndex="65" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Elite Ogre" />
+	<!-- Devil Square 3 -->
+		<Square Level="2" MonsterIndex="291" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Fire Golem" />
+		<Square Level="2" MonsterIndex="291" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Fire Golem" />
+		<Square Level="2" MonsterIndex="291" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Fire Golem" />
+		<Square Level="2" MonsterIndex="291" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Fire Golem" />
+		<Square Level="2" MonsterIndex="291" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Fire Golem" />
+	<!-- Devil Square 4 -->
+		<Square Level="3" MonsterIndex="197" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Illusion of Kundun 4" />
+		<Square Level="3" MonsterIndex="197" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Illusion of Kundun 4" />
+		<Square Level="3" MonsterIndex="197" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Illusion of Kundun 4" />
+		<Square Level="3" MonsterIndex="197" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Illusion of Kundun 4" />
+		<Square Level="3" MonsterIndex="197" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Illusion of Kundun 4" />
+	<!-- Devil Square 5 -->
+		<Square Level="4" MonsterIndex="340" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dark Elf" />
+		<Square Level="4" MonsterIndex="340" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dark Elf" />
+		<Square Level="4" MonsterIndex="340" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dark Elf" />
+		<Square Level="4" MonsterIndex="340" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dark Elf" />
+		<Square Level="4" MonsterIndex="340" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dark Elf" />
+	<!-- Devil Square 6 -->
+		<Square Level="5" MonsterIndex="558" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Ice Napin" />
+		<Square Level="5" MonsterIndex="558" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Ice Napin" />
+		<Square Level="5" MonsterIndex="558" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Ice Napin" />
+		<Square Level="5" MonsterIndex="558" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Ice Napin" />
+		<Square Level="5" MonsterIndex="558" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Ice Napin" />
+	<!-- Devil Square 7 -->
+		<Square Level="6" MonsterIndex="559" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Shadow Master" />
+		<Square Level="6" MonsterIndex="559" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Shadow Master" />
+		<Square Level="6" MonsterIndex="559" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Shadow Master" />
+		<Square Level="6" MonsterIndex="559" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Shadow Master" />
+		<Square Level="6" MonsterIndex="559" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Shadow Master" />
+	</BossAppearanceSettings>
+
+	<RankingBonusSettings>
+	<!-- Devil Square 1 -->
+		<Square Level="0" RankingPlace="0" ExpBonus="6000" ZenBonus="30000" />
+		<Square Level="0" RankingPlace="1" ExpBonus="4000" ZenBonus="25000" />
+		<Square Level="0" RankingPlace="2" ExpBonus="2000" ZenBonus="20000" />
+		<Square Level="0" RankingPlace="3" ExpBonus="1000" ZenBonus="15000" />
+	<!-- Devil Square 2 -->
+		<Square Level="1" RankingPlace="0" ExpBonus="8000" ZenBonus="40000" />
+		<Square Level="1" RankingPlace="1" ExpBonus="6000" ZenBonus="35000" />
+		<Square Level="1" RankingPlace="2" ExpBonus="4000" ZenBonus="30000" />
+		<Square Level="1" RankingPlace="3" ExpBonus="2000" ZenBonus="25000" />
+	<!-- Devil Square 3 -->
+		<Square Level="2" RankingPlace="0" ExpBonus="10000" ZenBonus="50000" />
+		<Square Level="2" RankingPlace="1" ExpBonus="8000" ZenBonus="45000" />
+		<Square Level="2" RankingPlace="2" ExpBonus="6000" ZenBonus="40000" />
+		<Square Level="2" RankingPlace="3" ExpBonus="4000" ZenBonus="35000" />
+	<!-- Devil Square 4 -->
+		<Square Level="3" RankingPlace="0" ExpBonus="20000" ZenBonus="60000" />
+		<Square Level="3" RankingPlace="1" ExpBonus="10000" ZenBonus="55000" />
+		<Square Level="3" RankingPlace="2" ExpBonus="8000" ZenBonus="50000" />
+		<Square Level="3" RankingPlace="3" ExpBonus="6000" ZenBonus="45000" />
+	<!-- Devil Square 5 -->
+		<Square Level="4" RankingPlace="0" ExpBonus="22000" ZenBonus="70000" />
+		<Square Level="4" RankingPlace="1" ExpBonus="20000" ZenBonus="65000" />
+		<Square Level="4" RankingPlace="2" ExpBonus="10000" ZenBonus="60000" />
+		<Square Level="4" RankingPlace="3" ExpBonus="8000" ZenBonus="55000" />
+	<!-- Devil Square 6 -->
+		<Square Level="5" RankingPlace="0" ExpBonus="24000" ZenBonus="80000" />
+		<Square Level="5" RankingPlace="1" ExpBonus="22000" ZenBonus="75000" />
+		<Square Level="5" RankingPlace="2" ExpBonus="20000" ZenBonus="70000" />
+		<Square Level="5" RankingPlace="3" ExpBonus="10000" ZenBonus="65000" />
+	<!-- Devil Square 7 -->
+		<Square Level="6" RankingPlace="0" ExpBonus="26000" ZenBonus="150000" />
+		<Square Level="6" RankingPlace="1" ExpBonus="24000" ZenBonus="140000" />
+		<Square Level="6" RankingPlace="2" ExpBonus="22000" ZenBonus="120000" />
+		<Square Level="6" RankingPlace="3" ExpBonus="20000" ZenBonus="90000" />
+	</RankingBonusSettings>
+
+	<RewardExpSettings>
+		<Square Level="0" Multiplier="1.0" /> <!-- Devil Square 1 -->
+		<Square Level="1" Multiplier="1.0" /> <!-- Devil Square 2 -->
+		<Square Level="2" Multiplier="1.0" /> <!-- Devil Square 3 -->
+		<Square Level="3" Multiplier="1.0" /> <!-- Devil Square 4 -->
+		<Square Level="4" Multiplier="1.0" /> <!-- Devil Square 5 -->
+		<Square Level="5" Multiplier="1.0" /> <!-- Devil Square 6 -->
+		<Square Level="6" Multiplier="1.0" /> <!-- Devil Square 7 -->
+	</RewardExpSettings>
+</DevilSquare_Classic>

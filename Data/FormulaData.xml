@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2019 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// ### FormulaData::Exp::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		TotalLevel: Actual character's level, sum of regular and master
+//		MonsterExpLevel: Value of ExpLevel attribute from MonsterList.xml
+//		SoloExp: Single exp calculated using formula 0 or 1, see explanation below
+//		PartyAddExp: Values of PartyRegAddExp or PartySetAddExp section from ExpSystem.xml
+//		MembLevel: Party level, sum of all regular and master levels of party members
+//		AttackDamage: Actual damage caused
+//		TotalDamage: Total damage caused
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Single Exp:
+//	IF character's total level is lower or equal monster's level THEN: SoloExp = Formula 0
+//	IF character's total level is greater than monster's level THEN: SoloExp = Formula 1
+//	IF result of calculation of formula 0 OR 1 is equal or lower than 0 THEN: SoloExp = Formula 5
+//	IF result of calculation of formula 5 is 0 or lower then SoloExp = 1
+//
+// Party Exp:
+//	IF character's total level is lower or equal monster's level THEN: SoloExp = Formula 0
+//	IF character's total level is greater than monster's level THEN: SoloExp = Formula 1
+//	IF result of calculation of formula 0 OR 1 is equal or lower than 0 THEN: SoloExp = Formula 5
+//	IF result of calculation of formula 5 is 0 or lower then SoloExp = 1
+//		THEN:
+//	SoloExp = Formula 3
+//		THEN:
+//	IF Party members are on same map and distance among them is less than 10 squares
+//		THEN:
+//	PartyExp = Formula 4
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### FormulaData::Exp::ExpSystem ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data
+//		StaticExp: Represents static exp
+//		DynamicExp: Represents dynamic exp
+//		EventExp: Represents event exp
+//		VipExp: Represents VIP exp
+//		BonusEvent: Represents exp bonus from bonus event
+//		MapBonusExp: Represents exp bonus per map
+//
+// ### FormulaData::ExcellentOption::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		x: ItemDropLevel
+//		y: PlayerLevel
+//
+// ### FormulaData::SkillTree4th::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		x: ItemDropLevel
+//		y: PlayerLevel
+//
+// ### FormulaData::SetOption::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		x: ItemDropLevel
+//		y: PlayerLevel
+//
+// ### FormulaData::Wing4thDamage::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		x: ItemDropLevel
+//		y: PlayerLevel
+//
+// ### FormulaData::Wing4thDefense::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		x: ItemDropLevel
+//		y: PlayerLevel
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<FormulaData>
+	<Exp> <!-- Do not mix elements from different exp formulas, use only attributes available from within specified formula -->
+		<Formula ID="0" Data="(TotalLevel*15)+((((TotalLevel*15)*0.2)/500)*(MonsterExpLevel-TotalLevel))" />
+		<Formula ID="1" Data="(MonsterExpLevel*15)+((((TotalLevel*15)*0.2)/500)*(MonsterExpLevel-TotalLevel))" />
+		<Formula ID="2" Data="SoloExp*PartyAddExp*MembLevel/TotalLevel" /> <!-- unused at the moment -->
+		<Formula ID="3" Data="SoloExp*(AttackDamage/TotalDamage)" />
+		<Formula ID="4" Data="SoloExp*PartyAddExp*MembLevel/TotalLevel" />
+		<!-- <Formula ID="5" Data="(%d*15)+((((%d*15)*0.2)/500)*(%d-%d))" />
+		<Formula ID="6" Data="(((1000*15)+((((1000*15)*0.2)/500)*(%d-1000)))-(((%d-1000)*15)+(((((%d-1000)*15)*0.2)/500)*(%d-1000))*((1+(((%d-1000)^1.1)/1000))*0.3)))" />
+		<Formula ID="7" Data="((((%d+700)*15)+(((((%d+700)*15)*0.2)/500)*(%d-(%d+700))))-(((%d-(%d+700))*15)+(((((%d-(%d+700))*15)*0.2)/500)*(%d-(%d+700)))*((1+((%d-(%d+700))^1.1)/1000))*0.3))" /> -->
+		<Formula ID="5" Data="1" /> <!-- TotalLevel, MonsterExpLevel attributes are available to use in this formula -->
+	</Exp>
+	
+	<ExpSystem>
+		<Formula ID="0" Data="StaticExp+(EventExp+VipExp+BonusEvent+MapBonusExp)" />
+		<Formula ID="1" Data="StaticExp+DynamicExp+(EventExp+VipExp+BonusEvent+MapBonusExp)" />
+		<Formula ID="2" Data="StaticExp*DynamicExp+(EventExp+VipExp+BonusEvent+MapBonusExp)" />
+		<Formula ID="3" Data="DynamicExp+(EventExp+VipExp+BonusEvent+MapBonusExp)" />
+		<Formula ID="4" Data="(StaticExp+EventExp+VipExp+BonusEvent+MapBonusExp)*DynamicExp" />
+		<Formula ID="5" Data="(StaticExp+DynamicExp+EventExp+BonusEvent+MapBonusExp)*VipExp" />
+	</ExpSystem>
+
+	<ExcellentOption>
+		<Formula ID="0" Data="(x/100)*(y/20)" />
+		<Formula ID="1" Data="(x/3.5)" />
+		<Formula ID="2" Data="(x*1.1)" />
+		<Formula ID="3" Data="(x*1.1)" />
+		<Formula ID="4" Data="(x*0.3)" />
+		<Formula ID="5" Data="(x/3.5)" />
+		<Formula ID="6" Data="(x/100)*(y/20)" />
+	</ExcellentOption>
+	
+	<SetAddStatOption>
+		<Formula ID="0"	Data="x/10" />
+		<Formula ID="1"	Data="x/5" />
+		<Formula ID="2"	Data="x/10" />
+		<Formula ID="3"	Data="x/5" />
+		<Formula ID="4"	Data="x/10" />
+		<Formula ID="5"	Data="x/5" />
+		<Formula ID="6"	Data="x/10" />
+		<Formula ID="7"	Data="x/5" />
+		<Formula ID="8"	Data="x/10" />
+		<Formula ID="9"	Data="x/5" />
+		<Formula ID="10" Data="x/20" />
+		<Formula ID="11" Data="x/10" />
+	</SetAddStatOption>
+	
+	<SkillTree>
+		<Formula ID="0" Data="0" /> <!-- empty -->
+		<Formula ID="1" Data="1+((((((x)-30)^3)+25000)/499)/6)" />
+		<Formula ID="2" Data="0.8+(((((((x-30)^3)+25000)/499)/6)))" />
+		<Formula ID="3" Data="(0.85+(((((((x-30)^3)+25000)/499)/6))))*6" />
+		<Formula ID="4" Data="(0.9+(((((((x-30)^3)+25000)/499)/6))))*8" />
+		<Formula ID="5" Data="(0.95+(((((((x-30)^3)+25000)/499)/6))))*10" />
+		<Formula ID="6" Data="52/(1+(((((((x-30)^3)+25000)/499)/6))))" />
+		<Formula ID="7" Data="(1+(((((((x-30)^3)+25000)/499)/6))))*1.5" />
+		<Formula ID="8" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*23" />
+		<Formula ID="9" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85" />
+		<Formula ID="10" Data="(0.8+(((((((x-30)^3)+25000)/499)/50)*100)/12))*8" />
+		<Formula ID="11" Data="11/(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))" />
+		<Formula ID="12" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*6" />
+		<Formula ID="13" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*5" />
+		<Formula ID="14" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*8" />
+		<Formula ID="15" Data="(1+(((((((x-30)^3)+25000)/499)/6))))*15" />
+		<Formula ID="16" Data="(1+(((((((x-30)^3)+25000)/499)/6))))*50" />
+		<Formula ID="17" Data="(1+(((((((x-30)^3)+25000)/499)/6))))*10" />
+		<Formula ID="18" Data="(1+(((((((x-30)^3)+25000)/499)/6))))*6" />
+		<Formula ID="19" Data="50/(1+(((((((x-30)^3)+25000)/499)/6))))+20" />
+		<Formula ID="20" Data="41/(1+(((((((x-29)^3)+22333)/444)/10))))+0.8" />
+		<Formula ID="21" Data="(2+(((((((x-30)^3)+25000)/499)/6))))*1.5" />
+		<Formula ID="22" Data="(0.9+(((((((x-35)^3)+40440)/600)/7.5))))*5" />
+		<Formula ID="23" Data="x*1.0" />
+		<Formula ID="24" Data="(0.95+(((((((x-30)^3)+25000)/499)/6))))*7.8" />
+		<Formula ID="25" Data="170" />
+		<Formula ID="26" Data="150" />
+		<Formula ID="27" Data="130" />
+		<Formula ID="28" Data="800" />
+		<Formula ID="29" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*2.5" />
+		<Formula ID="30" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*2" />
+		<Formula ID="31" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*3.2" />
+		<Formula ID="32" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*5" />
+		<Formula ID="33" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*85*3" />
+		<Formula ID="34" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*45" />
+		<Formula ID="35" Data="(1+(((((((x-30)^3)+25000)/499)/6))))*28" />
+		<Formula ID="36" Data="(1+(((((((x-30)^3)+25000)/499)/6))))*8" />
+		<Formula ID="37" Data="(1+(((((((x-30)^3)+25000)/499)/50)*100)/12))*15" />
+		<Formula ID="38" Data="0.1+(((((((x-47)^3)+120000)/600)/41)))" />
+		<Formula ID="39" Data="0.9+(((((((x-30)^3)+25000)/499)/12)))" />
+		<Formula ID="40" Data="(1+((((((((x)-30)^3)+25000)/499)/6))))*12" />
+		<Formula ID="41" Data="(1+((((((((x)-30)^3)+25000)/499)/6))))*13" />
+		<Formula ID="42" Data="(1+((((((((x)-30)^3)+25000)/499)/6))))*14" />
+		<Formula ID="43" Data="(1+(((((((x-35)^3)+43000)/499)/50)*100)/12))*85" />
+		<Formula ID="44" Data="(((((20+x)^1.4)*2.402)/2.8)*4)" />
+		<Formula ID="45" Data="15/x" />
+		<Formula ID="46" Data="30/x" />
+		<Formula ID="47" Data="45/x" />
+		<Formula ID="48" Data="60/x" />
+		<Formula ID="49" Data="15/x" />
+		<Formula ID="50" Data="((((((2.02+x)^1.1)/10)*5)/3)*1)" />
+		<Formula ID="51" Data="((((((3.33+x)^1.3)/10)*5)/3)*1)" />
+		<Formula ID="52" Data="((((((3.78+x)^1.42)/10)*5)/3)*1)" />
+		<Formula ID="53" Data="((((((3.33+x)^1.52)/10)*5)/3)*1)" />
+		<Formula ID="54" Data="x*1" />
+		<Formula ID="55" Data="(x*15/10)" />
+		<Formula ID="56" Data="(10/x)*7" />
+		<Formula ID="57" Data="(10/x)*10" />
+		<Formula ID="58" Data="(10/x)*11" />
+		<Formula ID="59" Data="(10/x)*12" />
+		<Formula ID="60" Data="10/x" />
+		<Formula ID="61" Data="10/x" />
+		<Formula ID="62" Data="10/x" />
+		<Formula ID="63" Data="10/x" />
+		<Formula ID="64" Data="10/x" />
+		<Formula ID="65" Data="10/x" />
+		<Formula ID="66" Data="x*0.75" />
+		<Formula ID="67" Data="x*1" />
+		<Formula ID="68" Data="10/x" />
+		<Formula ID="69" Data="10/x" />
+		<Formula ID="70" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="71" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="72" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="73" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="74" Data="((((((6+x)^2)/10)*5)/7)*5*8)" />
+		<Formula ID="75" Data="((((((5.85+x)^2)/10)*5)/5)*3)" />
+		<Formula ID="76" Data="((((((7+x)^2)/10)*5)/7)*4*7)" />
+		<Formula ID="77" Data="((((((7+x)^2)/10)*5)/9.8)*5)/10" />
+		<Formula ID="78" Data="x*1" />
+		<Formula ID="79" Data="x*1" />
+		<Formula ID="80" Data="x*1" />
+		<Formula ID="81" Data="x*1" />
+		<Formula ID="82" Data="((((((7+x)^2)/10)*5)/7)*5*7)" />
+		<Formula ID="83" Data="((((((7.11+x)^2)/10)*5)/98)*4)" />
+		<Formula ID="84" Data="((((((8+x)^2)/10)*5)/7)*4*6)" />
+		<Formula ID="85" Data="x/5" />
+		<Formula ID="86" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="87" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="88" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="89" Data="((((((20+x)^2)/15)*7.5)/213.3)*4)" />
+		<Formula ID="90" Data="x*0.5" />
+		<Formula ID="91" Data="((((((20+x)^2)/15)*10)/213.3)*2)" />
+		<Formula ID="92" Data="((((((20+x)^2)/15)*10)/213.3)*2)" />
+		<Formula ID="93" Data="((((((20+x)^2)/15)*10)/213.3)*2)" />
+		<Formula ID="94" Data="((((((20+x)^2)/15)*10)/213.3)*2)" />
+		<Formula ID="95" Data="((((((4+x)^2)/10)*5)/7)*5*8)" />
+		<Formula ID="96" Data="((((((5.9+x)^2)/10)*5)/10)*3)" />
+		<Formula ID="97" Data="((((((5+x)^2)/10)*5)/7)*4*7)" />
+		<Formula ID="98" Data="((((((4.25+x)^2)/10)*5)/9.8)*5)/15" />
+		<Formula ID="99" Data="x*1" />
+		<Formula ID="100" Data="x*1" />
+		<Formula ID="101" Data="x*1" />
+		<Formula ID="102" Data="x*1" />
+		<Formula ID="103" Data="((((((5+x)^2)/10)*5)/7)*5*8)" />
+		<Formula ID="104" Data="((((((5.56+x)^2)/10)*5)/98)*3)" />
+		<Formula ID="105" Data="((((((6+x)^2)/10)*5)/7)*4*6)" />
+		<Formula ID="106" Data="x/10" />
+		<Formula ID="107" Data="((((((20+x)^2)/15)*5)/213.3)*2)" />
+		<Formula ID="108" Data="((((((20+x)^2)/15)*5)/213.3)*2)" />
+		<Formula ID="109" Data="((((((20+x)^2)/15)*5)/213.3)*2)" />
+		<Formula ID="110" Data="((((((20+x)^2)/15)*5)/213.3)*2)" />
+		<Formula ID="111" Data="x*0.5" />
+		<Formula ID="112" Data="((((((23+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="113" Data="((((((8+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="114" Data="((((((9+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="115" Data="((((((18+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="116" Data="((((((8+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="117" Data="((((((6+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="118" Data="((((((8+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="119" Data="((((((5+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="120" Data="((((((38+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="121" Data="((((((11+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="122" Data="((((((10+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="123" Data="((((((32+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="124" Data="((((((9+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="125" Data="((((((7+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="126" Data="((((((7+x)^2)/10)*5)/7)*5)" />
+		<Formula ID="127" Data="((((((26+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="128" Data="((((((5+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="129" Data="((((((4+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="130" Data="((((((22+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="131" Data="((((((23+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="132" Data="((((((22+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="133" Data="((((((26+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="134" Data="((((((25+x)^1.7)/10)*9)/7)*4)" />
+		<Formula ID="135" Data="((((((3+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="136" Data="((((((23+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="137" Data="((((((12+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="138" Data="((((((1+x)^2)/10)*5)/7)*4)" />
+		<Formula ID="139" Data="(((((x*x)*1.8)/11.52)+((x-800)*(x*1.876)/100))/4)" />
+		<Formula ID="140" Data="(((((x*x)*1.8)/11.52)+((x-800)*(x*1.876)/100))/4)" />
+		<Formula ID="141" Data="(((((x*x)*1.8)/11.52)+((x-800)*(x*1.876)/100))/4)" />
+		<Formula ID="142" Data="(((((x*x)*1.8)/11.52)+((x-800)*(x*1.876)/100))/4)" />
+		<Formula ID="143" Data="((((((13+x)^2)/10)*5)/7)*4*80.35)" />
+		<Formula ID="144" Data="((((((13+x)^2)/10)*5)/7)*4*80.35)" />
+		<Formula ID="145" Data="((((((13+x)^2)/10)*5)/7)*4*80.35)" />
+		<Formula ID="146" Data="((((((13+x)^2)/10)*5)/7)*4*80.35)" />
+		<Formula ID="147" Data="30/x" />
+		<Formula ID="148" Data="((((((15+x)^2)/10)*5)/30)*5.76)" />
+		<Formula ID="149" Data="((((((15+x)^2)/10)*5)/245)*7.84)" />
+		<Formula ID="150" Data="40/x" />
+		<Formula ID="151" Data="((((((x*x)*0.6/24)+(((x-800)*(x-500))/200))/24)+1500))" />
+		<Formula ID="152" Data="70*x" />
+		<Formula ID="153" Data="8+(x*0)" />
+		<Formula ID="154" Data="15*x" />
+		<Formula ID="155" Data="7*x" />
+		<Formula ID="156" Data="13*x" />
+		<Formula ID="157" Data="13*x" />
+		<Formula ID="158" Data="8+(x*0)" />
+		<Formula ID="159" Data="50*x" />
+		<Formula ID="160" Data="7*x" />
+		<Formula ID="161" Data="13*x" />
+		<Formula ID="162" Data="x*3.5" />
+		<Formula ID="163" Data="x*0" />
+		<Formula ID="164" Data="4.5/x" />
+		<Formula ID="165" Data="((((((4+x)^1.6)/7)*5.5)/5.7)*5)" />
+		<Formula ID="166" Data="((((((5+x)^1.6)/5)*4)/5)*4.3)" />
+		<Formula ID="167" Data="((((((5+x)^1.6)/5)*4)/4.3)*4.2)" />
+		<Formula ID="168" Data="10/x" />
+		<Formula ID="169" Data="10/x" />
+		<Formula ID="170" Data="10/x" />
+		<Formula ID="171" Data="20/x" />
+	</SkillTree>
+	<SetOption>
+		<Formula ID="0" Data="((((x*1.25)^1.48)+5)/1.1)" />
+		<Formula ID="1" Data="((((x*1.25)^1.48)+5)/1.1)" />
+		<Formula ID="2" Data="(((x*1.3)^1.4)+7)" />
+		<Formula ID="3" Data="(((x*4.5)+20)/1.8)" />
+		<Formula ID="4" Data="(((x*3.5)+20)/1.8)" />
+		<Formula ID="5" Data="((((x*1.22)^1.5)+5)/1.1)" />
+		<Formula ID="6" Data="((((x*1.25)^1.48)+5)/1.1)" />
+		<Formula ID="7" Data="(((x*1.3)^1.4)+7)" />
+		<Formula ID="8" Data="(((x*4.5)+20)/1.6)" />
+		<Formula ID="9" Data="(((x*3.5)+20)/1.72)" />
+		<Formula ID="10" Data="((((x*1.1)^1.48)+7)/1.6)" />
+		<Formula ID="11" Data="((((x*1.2)^1.6)+5)/1.1)" />
+		<Formula ID="12" Data="(((x*1.3)^1.4)+7)" />
+		<Formula ID="13" Data="(((x*4)+20)/1.8)" />
+		<Formula ID="14" Data="(((x*3)+20)/1.8)" />
+		<Formula ID="15" Data="(((x*3.5)+25)/2)" />
+		<Formula ID="16" Data="(((x*1)^1)+1)" />
+		<Formula ID="17" Data="((((x*1.25)^1.56)+70)/1)" />
+		<Formula ID="18" Data="(((x*1.2)^1.4)+21)" />
+		<Formula ID="19" Data="((((x*1.25)^1.48)+24)/1.1)" />
+		<Formula ID="20" Data="((((x*1.25)^1.48)+24)/1.1)" />
+		<Formula ID="21" Data="(((x*1.1)^1)+4)" />
+		<Formula ID="22" Data="(((x*4.5)+47)/1.8)" />
+		<Formula ID="23" Data="(((x*3.5)+43)/1.8)" />
+		<Formula ID="24" Data="((((x*1.22)^1.5)+25)/1.1)" />
+		<Formula ID="25" Data="(((x*1)^1)+8)" />
+		<Formula ID="26" Data="(((x*4.5)+46)/1.6)" />
+		<Formula ID="27" Data="(((x*3.5)+43)/1.72)" />
+		<Formula ID="28" Data="(((x*1.1)^1)+5)" />
+		<Formula ID="29" Data="(((x*3.5)+37)/2)" />
+	</SetOption>
+	<Wing4thDamage>
+		<Formula ID="0" Data="100+(y^1.2*11.8)" />
+		<Formula ID="1" Data="100+(y^1.2*11.8)" />
+		<Formula ID="2" Data="100+(y^1.2*11.8)" />
+		<Formula ID="3" Data="100+(y^1.2*11.8)" />
+		<Formula ID="4" Data="100+(y^1.2*11.8)" />
+		<Formula ID="5" Data="100+(y^1.2*11.8)" />
+		<Formula ID="6" Data="100+(y^1.2*11.8)" />
+		<Formula ID="7" Data="100+(y^1.2*11.8)" />
+		<Formula ID="8" Data="100+(y^1.2*11.8)" />
+	</Wing4thDamage>
+	<Wing4thDefense>
+		<Formula ID="0" Data="(140+(y^1.5*15))" />
+		<Formula ID="1" Data="((((y-10)^1.3)*5)^1.6)" />
+	</Wing4thDefense>
+</FormulaData>
