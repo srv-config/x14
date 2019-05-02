@@ -393,4 +393,8 @@
 		<Item Cat="14" Index="438" Option1="0" Value1="85" Option2="0" Value2="0" Time="1800" /> <!-- Fungus of Death -->
 		<Item Cat="14" Index="439" Option1="0" Value1="85" Option2="0" Value2="0" Time="1800" /> <!-- Dragee of Strength -->
 	</Section>
+
+	<Section ID="85">
+		<Item Cat="14" Index="453" Option1="0" Value1="0" Option2="0" Value2="0" Time="1800" /> <!-- Switch Scroll -->
+	</Section>
 </ItemOptionManager>
