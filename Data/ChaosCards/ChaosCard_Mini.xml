@@ -42,6 +42,7 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Excellent items are always rewarded with level +0
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Durability: Item durability, 0-255, optional
 //	Skill: Determines if the item can be rewarded with skill, 0/1
 //	Luck: Determines if the item can be rewarded with luck, 0/1
 //	Option: Determines if the item can be rewarded with option, 0/1
@@ -302,8 +303,8 @@
 		<Item Cat="14" Index="44" MinLevel="0" MaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" /> <!-- Higher refining stone -->
 	</Section>
 	<Section ID="9">
-		<Item Cat="12" Index="30" MinLevel="0" MaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" /> <!-- Bundled Jewel of Bless -->
-		<Item Cat="12" Index="31" MinLevel="0" MaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" /> <!-- Bundled Jewel of Soul -->
+		<Item Cat="14" Index="13" MinLevel="0" MaxLevel="0" Durability="10" Skill="0" Luck="0" Option="0" Exc="-1" /> <!-- Jewel of Bless x10 -->
+		<Item Cat="14" Index="14" MinLevel="0" MaxLevel="0" Durability="10" Skill="0" Luck="0" Option="0" Exc="-1" /> <!-- Jewel of Soul x10 -->
 	</Section>
 	<Section ID="10">
 		<Item Cat="13" Index="4" MinLevel="0" MaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" /> <!-- Dark Horse -->

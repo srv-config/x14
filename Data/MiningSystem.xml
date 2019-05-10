@@ -51,14 +51,14 @@
 // Number: Map Number
 // Name: Display name for notice purpose
 //
-// ## MiningSystem::RepairValue ### - defines values the Pandora Pick durability will be increase by on putting into it Jewel of Bless of Jewel of Bless Bundles
+// ## MiningSystem::RepairValue ### - defines values the Pandora Pick durability will be increased by putting Jewel of Bless into it
 //  MaxValue: Protection, maximum value for Value property, if Value will be set to higher than defined in MaxValue then MaxValue value will be used
 //
 // ## MiningSystem::RepairValue::Repair ###
-//	ItemCat: Category of Jewel of Bless or Bless Bundles
+//	ItemCat: Category of Jewel of Bless
 //		+ Jewel of Bless (14,13) - NotifyItem
 //	ItemIndex: See above ItemCat description
-//	Value: Durability the Pandora Pick durability will be increased by on Jewel of Bless or Jewel of Bless Bundle put
+//	Value: Durability the Pandora Pick durability will be increased by on Jewel of Bless put
 //
 // ### MiningSystem::Spot::Spawn ###
 //	Index: Mining area spot index, refer to MonsterList.xml (605~607) 

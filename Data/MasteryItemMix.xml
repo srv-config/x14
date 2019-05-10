@@ -71,27 +71,27 @@
 		<Material ID="4" Cat="14" Index="31" MinLevel="0" MaxLevel="0" Option="0" Durability="1" Type="0" Name="Jewel of Guardian" />
 		<Material ID="5" Cat="14" Index="42" MinLevel="0" MaxLevel="0" Option="0" Durability="1" Type="0" Name="Jewel of Harmony" />
 		<Material ID="6" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Option="0" Durability="1" Type="0" Name="Jewel of Chaos" />
-		<Material ID="7" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Bundle of Jewel of Bless" />
-		<Material ID="8" Cat="14" Index="14" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Bundle of Jewel of Soul" />
-		<Material ID="9" Cat="14" Index="16" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Bundle of Jewel of Life" />
-		<Material ID="10" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Bundle of Jewel of Creation" />
-		<Material ID="11" Cat="14" Index="31" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Bundle of Jewel of Guardian" />
-		<Material ID="12" Cat="14" Index="42" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Bundle Jewel of Harmony" />
-		<Material ID="13" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Bundle of Jewel of Chaos" />
-		<Material ID="14" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Bundle of Jewel of Bless" />
-		<Material ID="15" Cat="14" Index="14" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Bundle of Jewel of Soul" />
-		<Material ID="16" Cat="14" Index="16" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Bundle of Jewel of Life" />
-		<Material ID="17" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Bundle of Jewel of Creation" />
-		<Material ID="18" Cat="14" Index="31" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Bundle of Jewel of Guardian" />
-		<Material ID="19" Cat="14" Index="42" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Bundle Jewel of Harmony" />
-		<Material ID="20" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Bundle of Jewel of Chaos" />
-		<Material ID="21" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Bundle of Jewel of Bless" />
-		<Material ID="22" Cat="14" Index="14" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Bundle of Jewel of Soul" />
-		<Material ID="23" Cat="14" Index="16" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Bundle of Jewel of Life" />
-		<Material ID="24" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Bundle of Jewel of Creation" />
-		<Material ID="25" Cat="14" Index="31" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Bundle of Jewel of Guardian" />
-		<Material ID="26" Cat="14" Index="42" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Bundle Jewel of Harmony" />
-		<Material ID="27" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Bundle of Jewel of Chaos" />																												
+		<Material ID="7" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Jewel of Bless x10" />
+		<Material ID="8" Cat="14" Index="14" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Jewel of Soul x10" />
+		<Material ID="9" Cat="14" Index="16" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Jewel of Life x10" />
+		<Material ID="10" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Jewel of Creation x10" />
+		<Material ID="11" Cat="14" Index="31" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Jewel of Guardian x10" />
+		<Material ID="12" Cat="14" Index="42" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Jewel of Harmony x10" />
+		<Material ID="13" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Option="0" Durability="10" Type="0" Name="Jewel of Chaos x10" />
+		<Material ID="14" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Jewel of Bless x20" />
+		<Material ID="15" Cat="14" Index="14" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Jewel of Soul x20" />
+		<Material ID="16" Cat="14" Index="16" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Jewel of Life x20" />
+		<Material ID="17" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Jewel of Creation x20" />
+		<Material ID="18" Cat="14" Index="31" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Jewel of Guardian x20" />
+		<Material ID="19" Cat="14" Index="42" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Jewel of Harmony x20" />
+		<Material ID="20" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Option="0" Durability="20" Type="0" Name="Jewel of Chaos x20" />
+		<Material ID="21" Cat="14" Index="13" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Jewel of Bless x30">
+		<Material ID="22" Cat="14" Index="14" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Jewel of Soul x30" />
+		<Material ID="23" Cat="14" Index="16" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Jewel of Life x30" />
+		<Material ID="24" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Jewel of Creation x30" />
+		<Material ID="25" Cat="14" Index="31" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Jewel of Guardian x30" />
+		<Material ID="26" Cat="14" Index="42" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Jewel of Harmony x30" />
+		<Material ID="27" Cat="12" Index="15" MinLevel="0" MaxLevel="0" Option="0" Durability="30" Type="0" Name="Jewel of Chaos x30" />																												
 		<Material ID="28" Cat="0" Index="42" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blood Angel Sword" />
 		<Material ID="29" Cat="0" Index="44" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blood Angel Magic Sword" />
 		<Material ID="30" Cat="0" Index="46" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blood Angel Claw" />
