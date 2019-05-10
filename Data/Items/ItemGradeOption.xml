@@ -37,7 +37,7 @@
 -->
 
 <GradedOptions>
-<OptionMixCount Rate1="9250" Rate2="500" Rate3="3" Rate4="50" Rate5="0" /> <!-- Sum of all five must be equal to 10000 -->
+<OptionMixCount Rate1="9250" Rate2="500" Rate3="200" Rate4="50" /> <!-- Sum of all five must be equal to 10000 -->
 	<List>
 		<Option Index="0" ItemKindB="76" TextID="1025" Grade0Val="3" Grade1Val="5" Grade2Val="6" Grade3Val="7" Grade4Val="0" Grade5Val="0" Grade6Val="0" Grade7Val="0" Grade8Val="0" Grade9Val="0" Rate="5000" Name="Mana full recovery probability %d%% increase"/>
 		<Option Index="1" ItemKindB="76" TextID="1026" Grade0Val="3" Grade1Val="5" Grade2Val="6" Grade3Val="7" Grade4Val="0" Grade5Val="0" Grade6Val="0" Grade7Val="0" Grade8Val="0" Grade9Val="0" Rate="5000" Name="%d chance of full recovery of life %d%% increase"/>
