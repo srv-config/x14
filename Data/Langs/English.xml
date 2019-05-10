@@ -767,6 +767,20 @@
 		<Msg ID="740" Text="[SummonHelper] Not enough Zen to warp to nearest gate" />
 		<Msg ID="741" Text="Can't move to the target location" />
 		<Msg ID="742" Text="Not enough Zen to warp" />
+		<Msg ID="743" Text=" [PVP] %s Killed %s in %s" />
+		<Msg ID="744" Text=" !!! [%s] just successfully mixed %s +%d!!!" />
+		<Msg ID="745" Text=" Minimum Resets for Grand Reset is %d" />
+		<Msg ID="746" Text=" You reached max Grand Reset!" />
+		<Msg ID="747" Text=" Lack of zen! Need %d" />
+		<Msg ID="748" Text=" [INFO] GR: [%d] RESET [%d] WCOIN [%d] GP[%d] " />
+		<Msg ID="749" Text=" [INFO] Character %s not found online! " />
+		<Msg ID="750" Text="Scramble Words Event will start after 5 minutes." />
+		<Msg ID="751" Text="Scramble Words Event started!" />
+		<Msg ID="752" Text="Round %d: unscramble this word: %s" />
+		<Msg ID="753" Text="Scramble Words finished." />
+		<Msg ID="754" Text="Event is not ongoing now!" />
+		<Msg ID="755" Text="Wrong Answer, try again" />
+		<Msg ID="756" Text="Congratulations - this answer is correct!" />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
@@ -882,5 +896,6 @@
 		<Msg ID="120" Text="Deep Dungeon 5" />
 		<Msg ID="121" Text="Fourth Quest Area" />
 		<Msg ID="122" Text="Swamp of Darkness" />
+		<Msg ID="123" Text="Kubera Mine" />
 	</Map>
 </Language>
