@@ -403,22 +403,22 @@
 		<Material ID="388" Cat="5" Index="54" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Holyangel Stick" />
 		<Material ID="389" Cat="4" Index="37" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Holyangel Quiver" />
 		<Material ID="390" Cat="14" Index="450" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Soul Moru" />
-		<Material ID="391" Cat="7" Index="166" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Helm" />
-		<Material ID="392" Cat="8" Index="166" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Armor" />
-		<Material ID="393" Cat="9" Index="166" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Pants" />
-		<Material ID="394" Cat="10" Index="166" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Gloves" />
-		<Material ID="395" Cat="7" Index="172" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Helm" />
-		<Material ID="396" Cat="8" Index="172" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Armor" />
-		<Material ID="397" Cat="9" Index="172" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Pants" />
-		<Material ID="398" Cat="10" Index="172" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Gloves" />
-		<Material ID="399" Cat="8" Index="168" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Armor" />
-		<Material ID="400" Cat="9" Index="168" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Pants" />
-		<Material ID="401" Cat="10" Index="168" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Gloves" />
-		<Material ID="402" Cat="11" Index="168" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Boots" />
-		<Material ID="403" Cat="8" Index="173" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Armor" />
-		<Material ID="404" Cat="9" Index="173" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Pants" />
-		<Material ID="405" Cat="10" Index="173" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Gloves" />
-		<Material ID="406" Cat="11" Index="173" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Boots" />
+		<Material ID="391" Cat="7" Index="166" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Helm" />
+		<Material ID="392" Cat="8" Index="166" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Armor" />
+		<Material ID="393" Cat="9" Index="166" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Pants" />
+		<Material ID="394" Cat="10" Index="166" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Agi) Gloves" />
+		<Material ID="395" Cat="7" Index="172" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Helm" />
+		<Material ID="396" Cat="8" Index="172" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Armor" />
+		<Material ID="397" Cat="9" Index="172" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Pants" />
+		<Material ID="398" Cat="10" Index="172" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Elf (Ene) Gloves" />
+		<Material ID="399" Cat="8" Index="168" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Armor" />
+		<Material ID="400" Cat="9" Index="168" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Pants" />
+		<Material ID="401" Cat="10" Index="168" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Gloves" />
+		<Material ID="402" Cat="11" Index="168" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Str) Boots" />
+		<Material ID="403" Cat="8" Index="173" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Armor" />
+		<Material ID="404" Cat="9" Index="173" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Pants" />
+		<Material ID="405" Cat="10" Index="173" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Gloves" />
+		<Material ID="406" Cat="11" Index="173" MinLevel="0" MaxLevel="15" Option="0" Durability="0" Type="2" Name="Blue Eye Magic (Ene) Boots" />
 	</CombinationMaterials>
 	<CombinationResult>
 		<Mix ID="78" Cat="8" Index="98"  Level="0" Name="Bloodangel Knight Armor" OptKeepType="24" SuccessRate="100" MaterialID1="78" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="0" MaterialCnt3="0" MaterialID4="0" MaterialCnt4="0" MaterialID5="0" MaterialCnt5="0" MaterialID6="0" MaterialCnt6="0" Money="0" />
