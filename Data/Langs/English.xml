@@ -767,6 +767,13 @@
 		<Msg ID="740" Text="[SummonHelper] Not enough Zen to warp to nearest gate" />
 		<Msg ID="741" Text="Can't move to the target location" />
 		<Msg ID="742" Text="Not enough Zen to warp" />
+		<Msg ID="743" Text=" [PVP] %s Killed %s in %s" />
+		<Msg ID="744" Text=" !!! [%s] just successfully mixed %s +%d!!!" />
+		<Msg ID="745" Text=" Minimum Resets for Grand Reset is %d" />
+		<Msg ID="746" Text=" You reached max Grand Reset!" />
+		<Msg ID="747" Text=" Lack of zen! Need %d" />
+		<Msg ID="748" Text=" [INFO] GR: [%d] RESET [%d] WCOIN [%d] GP[%d] " />
+		<Msg ID="749" Text=" [INFO] Character %s not found online! " />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
