@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igcn.mu
+// == (C) 2018 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<ScrambleWords>
+	<Event Enable="1" MaxRounds="12" MaxEventTimeMinutes="15" DifficultyLevelUp="4" />
+	
+	<DifficultyLevelReward>
+		<Difficulty Level="1" ItemCat="14" ItemIndex="14" ItemLevel="0" ItemDurability="1" />
+		<Difficulty Level="2" ItemCat="14" ItemIndex="13" ItemLevel="0" ItemDurability="1" />
+	</DifficultyLevelReward>
+	
+	<Schedule>
+		<Start Hour="3" Minute="41" />
+	</Schedule>
+	
+	<WordsList>
+		<Difficulty Level="1">
+			<Word Data="scramble" />
+			<Word Data="alcohol" />
+			<Word Data="programmer" />
+			<Word Data="calculator" />
+			<Word Data="computer" />
+			<Word Data="spaghetti" />
+		</Difficulty>
+		<Difficulty Level="2">
+			<Word Data="scramble" />
+			<Word Data="alcohol" />
+			<Word Data="programmer" />
+			<Word Data="calculator" />
+			<Word Data="computer" />
+			<Word Data="spaghetti" />
+		</Difficulty>
+	</WordsList>
+</ScrambleWords>
