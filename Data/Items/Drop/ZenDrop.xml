@@ -136,5 +136,9 @@
 	<Map Number="120" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Deep Dungeon 5 -->
 	<Map Number="121" MinMoneyCount="100" MaxMoneyCount="100" Disable="1" /> <!-- Fourth Class Quest -->
 	<Map Number="122" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Swamp of Darkness -->
-		
+	<Map Number="123" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Kubera Mine -->
+	<Map Number="124" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Kubera Mine -->
+	<Map Number="125" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Kubera Mine -->
+	<Map Number="126" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Kubera Mine -->
+	<Map Number="127" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /> <!-- Kubera Mine -->
 </ZenDropSystem>
