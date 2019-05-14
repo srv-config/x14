@@ -3,26 +3,53 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2018 IGC-Network (R)
+// == (C) 2019 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
 //
-// STRICTLY NO COMMENTS INSIDE TAGS 
+// ### ScrambleWords::Event ###
+//	Enable: Activate or deactivates the event, 0/1
+//	MaxRounds: Maximum number of round per level
+//	MaxEventTimeMinutes: Maximum event time, minutes
+//	DifficultyLevelUp: Number of rounds to advance to next level
+//
+// ### ScrambleWords::DifficultyLevelReward::Difficulty ###
+//	Level: Difficulty level
+//	ItemCat: Reward item category
+//	ItemIndex: Reward item index
+//	Itemlevel: Reward item level
+//	ItemDurability: Reward item durability
+//
+// ### ScrambleWords::Schedule::Start ###
+//	Hour: Event start hour, 0-23
+//	Minute: Event start minute, 0-59
+//
+// ### ScrambleWords::WordsList::Difficulty ###
+//	Level: Difficulty level
+//
+// ### ScrambleWords::WordsList::Difficulty::Word ###
+//	Data: A word to guess
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
 <ScrambleWords>
 	<Event Enable="1" MaxRounds="12" MaxEventTimeMinutes="15" DifficultyLevelUp="4" />
-	
+
 	<DifficultyLevelReward>
 		<Difficulty Level="1" ItemCat="14" ItemIndex="14" ItemLevel="0" ItemDurability="1" />
 		<Difficulty Level="2" ItemCat="14" ItemIndex="13" ItemLevel="0" ItemDurability="1" />
 	</DifficultyLevelReward>
-	
+
 	<Schedule>
-		<Start Hour="3" Minute="41" />
+		<Start Hour="10" Minute="0" />
+		<Start Hour="12" Minute="0" />
+		<Start Hour="15" Minute="0" />
+		<Start Hour="18" Minute="0" />
+		<Start Hour="23" Minute="0" />
 	</Schedule>
-	
+
 	<WordsList>
 		<Difficulty Level="1">
 			<Word Data="scramble" />
@@ -31,14 +58,26 @@
 			<Word Data="calculator" />
 			<Word Data="computer" />
 			<Word Data="spaghetti" />
+			<Word Data="camera" />
+			<Word Data="mobile" />
+			<Word Data="bible" />
+			<Word Data="lighter" />
+			<Word Data="cinema" />
+			<Word Data="forest" />
 		</Difficulty>
 		<Difficulty Level="2">
-			<Word Data="scramble" />
-			<Word Data="alcohol" />
-			<Word Data="programmer" />
-			<Word Data="calculator" />
-			<Word Data="computer" />
-			<Word Data="spaghetti" />
+			<Word Data="difficulty" />
+			<Word Data="laser" />
+			<Word Data="island" />
+			<Word Data="romeo" />
+			<Word Data="universe" />
+			<Word Data="pillow" />
+			<Word Data="starship" />
+			<Word Data="original" />
+			<Word Data="vegetable" />
+			<Word Data="fruits" />
+			<Word Data="newspaper" />
+			<Word Data="wire" />
 		</Difficulty>
 	</WordsList>
 </ScrambleWords>
