@@ -13,7 +13,7 @@
 
 <HarmonySystem>
 	<Type ID="1" Description="Physical">
-			<Option Index="1" Name="Minimum Attack Damage Increase +%d" RandomWeight="40" ReqLevel="0">
+		<Option Index="1" Name="Minimum Attack Damage Increase +%d" RandomWeight="40" ReqLevel="0">
 			<Effect Value0="2" ReqMoney0="100000" />
 			<Effect Value1="3" ReqMoney1="110000" />
 			<Effect Value2="4" ReqMoney2="120000" />
@@ -157,7 +157,7 @@
 			<!-- <Effect Value14="16" ReqMoney14="540000" />
 			<Effect Value15="18" ReqMoney15="600000" /> -->
 		</Option>
-		<Option Index="9" Name="SD Decrement Increase +%d" RandomWeight="20" ReqLevel="9">
+		<Option Index="9" Name="SD Decrease Rate Increase +%d" RandomWeight="20" ReqLevel="9">
 			<Effect Value0="0" ReqMoney0="0" />
 			<Effect Value1="0" ReqMoney1="0" />
 			<Effect Value2="0" ReqMoney2="0" />
@@ -175,7 +175,7 @@
 			<!-- <Effect Value14="11" ReqMoney14="540000" />
 			<Effect Value15="12" ReqMoney15="600000" /> -->
 		</Option>
-		<Option Index="10" Name="SD Bypass Rate Increase +%d" RandomWeight="10" ReqLevel="13">
+		<Option Index="10" Name="Ignore SD Rate Increase +%d" RandomWeight="10" ReqLevel="13">
 			<Effect Value0="0" ReqMoney0="0" />
 			<Effect Value1="0" ReqMoney1="0" />
 			<Effect Value2="0" ReqMoney2="0" />
@@ -286,7 +286,7 @@
 			<!-- <Effect Value14="30" ReqMoney14="540000" />
 			<Effect Value15="32" ReqMoney15="600000" /> -->
 		</Option>
-		<Option Index="6" Name="SD Decrement Increase +%d" RandomWeight="20" ReqLevel="9">
+		<Option Index="6" Name="SD Decrease Rate Increase +%d" RandomWeight="20" ReqLevel="9">
 			<Effect Value0="0" ReqMoney0="0" />
 			<Effect Value1="0" ReqMoney1="0" />
 			<Effect Value2="0" ReqMoney2="0" />
@@ -322,7 +322,7 @@
 			<!-- <Effect Value14="15" ReqMoney14="540000" />
 			<Effect Value15="16" ReqMoney15="600000" /> -->
 		</Option>
-		<Option Index="8" Name="Attack Success Rate Increase (PVP) +%d" RandomWeight="10" ReqLevel="13">
+		<Option Index="8" Name="Ignore SD Rate Increase +%d" RandomWeight="10" ReqLevel="13">
 			<Effect Value0="0" ReqMoney0="0" />
 			<Effect Value1="0" ReqMoney1="0" />
 			<Effect Value2="0" ReqMoney2="0" />

@@ -14,5 +14,5 @@
 -->
 
 <MonsterMapItemDrop>
-	<DropItem MonsterID="0" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="0" Index="0" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Element="0" SocketCount="0;0" Duration="0" Rate="0" />
+  <DropItem MonsterID="0" MonsterElement="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="0" Index="0" MinLevel="0" MaxLevel="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Element="0" SocketCount="0;0" Duration="0" Rate="0" Name="Kris" />
 </MonsterMapItemDrop>

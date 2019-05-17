@@ -15,7 +15,10 @@
 //	DifficultyLevelUp: Number of rounds to advance to next level
 //
 // ### ScrambleWords::DifficultyLevelReward::Difficulty ###
-//	Level: Difficulty level
+//	Level: Difficulty level:
+//		~ 1: Backward spelling
+//		~ 2: Mixed letters
+//
 //	ItemCat: Reward item category
 //	ItemIndex: Reward item index
 //	Itemlevel: Reward item level
@@ -26,10 +29,14 @@
 //	Minute: Event start minute, 0-59
 //
 // ### ScrambleWords::WordsList::Difficulty ###
-//	Level: Difficulty level
+//	Level: Difficulty level reference
 //
 // ### ScrambleWords::WordsList::Difficulty::Word ###
-//	Data: A word to guess
+//	Data: A word to guess, no spaces or special characters for now
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ For answer command check Commands.ini: /scramble <word>
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->

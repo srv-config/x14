@@ -31,7 +31,7 @@
 <!-- Uncomment to enable drop in Blood Castle event level 4-7
 	<Map Number="15" FileName="MonsterMap_(15)_Bag.xml" />
 	<Map Number="16" FileName="MonsterMap_(16)_Bag.xml" />
-	<Map Number="17" FileName="MonsterMap_(17)_Bag.xml" />-->
+	<Map Number="17" FileName="MonsterMap_(17)_Bag.xml" /> -->
 	<Map Number="24" FileName="MonsterMap_(24)_Bag.xml" />
 	<Map Number="25" FileName="MonsterMap_(25)_Bag.xml" />
 	<Map Number="26" FileName="MonsterMap_(26)_Bag.xml" />
@@ -67,4 +67,9 @@
 	<Map Number="119" FileName="MonsterMap_(119)_Bag.xml" />
 	<Map Number="120" FileName="MonsterMap_(120)_Bag.xml" />
 	<Map Number="122" FileName="MonsterMap_(122)_Bag.xml" />
+	<Map Number="122" FileName="MonsterMap_(123)_Bag.xml" />
+	<Map Number="122" FileName="MonsterMap_(124)_Bag.xml" />
+	<Map Number="122" FileName="MonsterMap_(125)_Bag.xml" />
+	<Map Number="122" FileName="MonsterMap_(126)_Bag.xml" />
+	<Map Number="122" FileName="MonsterMap_(127)_Bag.xml" />
 </EachMonsterMapList>
