@@ -28,7 +28,11 @@ function SetExpTable_Master(MasterLevel, MaxNormalLevel)
 	Exp = Exp + ( ((TotalLevel - 255) + 9) * (TotalLevel - 255) * (TotalLevel - 255) * 1000)
 	Exp = (Exp - 3892250000) / 2
 	
-	if (MasterLevel >= 370) then
+	if (MasterLevel > 400) then
+		Exp = SetExpTable_Master(MasterLevel - 1, MaxNormalLevel)
+		Exp = Exp + 19024359459 + (300000000 * (MasterLevel - 401))
+
+	elseif (MasterLevel >= 370) then
 		local ModExp = TotalLevel - (600 - ((TotalLevel - 770) * (TotalLevel - 770)) * 0.3)
 		Exp = (Exp * (ModExp * ModExp * 1.2 / 100000.0 + 1.0))
 	
