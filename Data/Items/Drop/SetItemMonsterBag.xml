@@ -12,7 +12,7 @@
 //	Number: Number of a map to apply drop for, see MapList.xml
 //	DropFlag: Drop flag type:
 //		~ 0: Normal drop
-//		~ 1: Land of Trials drop for cadtle owners guild
+//		~ 1: Land of Trials drop for castle owners guild
 //		~ 2: Acheron drop for Arca Battle winners
 //
 // ### SetItemDrop::Map::DropItem ###
