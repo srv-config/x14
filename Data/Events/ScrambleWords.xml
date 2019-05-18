@@ -11,8 +11,16 @@
 // ### ScrambleWords::Event ###
 //	Enable: Activate or deactivates the event, 0/1
 //	MaxRounds: Maximum number of round per level
-//	MaxEventTimeMinutes: Maximum event time, minutes
+//	TimeToStartMinutes: Notify time befoe event starts, minutes
+//	MaxEventTimeMinutes: Maximum event time in case of inactivity, minutes
 //	DifficultyLevelUp: Number of rounds to advance to next level
+//	NotifyWinner: Displays a message about round winner
+//
+// ### ScrambleWords::ChatMessage ###
+//	Enable: If enabled the words typed by the player participating the event will be visible in general chat by all players
+//	Red: Color Code (R)
+//	Green: Color Code (G)
+//	Blue: Color Code (B)
 //
 // ### ScrambleWords::DifficultyLevelReward::Difficulty ###
 //	Level: Difficulty level:
@@ -33,6 +41,7 @@
 //
 // ### ScrambleWords::WordsList::Difficulty::Word ###
 //	Data: A word to guess, no spaces or special characters for now
+//	Hint: A hint that will be displayed for linked word
 //
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ For answer command check Commands.ini: /scramble <word>
@@ -42,8 +51,9 @@
 -->
 
 <ScrambleWords>
-	<Event Enable="1" MaxRounds="12" MaxEventTimeMinutes="15" DifficultyLevelUp="4" />
-
+	<Event Enable="1" MaxRounds="12" TimeToStartMinutes="1" MaxEventTimeMinutes="15" DifficultyLevelUp="4" NotifyWinner="1" />
+	<ChatMessage Enable="1" Red="45" Green="15" Blue="175" />
+	
 	<DifficultyLevelReward>
 		<Difficulty Level="1" ItemCat="14" ItemIndex="14" ItemLevel="0" ItemDurability="1" />
 		<Difficulty Level="2" ItemCat="14" ItemIndex="13" ItemLevel="0" ItemDurability="1" />
@@ -59,32 +69,32 @@
 
 	<WordsList>
 		<Difficulty Level="1">
-			<Word Data="scramble" />
-			<Word Data="alcohol" />
-			<Word Data="programmer" />
-			<Word Data="calculator" />
-			<Word Data="computer" />
-			<Word Data="spaghetti" />
-			<Word Data="camera" />
-			<Word Data="mobile" />
-			<Word Data="bible" />
-			<Word Data="lighter" />
-			<Word Data="cinema" />
-			<Word Data="forest" />
+			<Word Data="scramble" Hint="" />
+			<Word Data="alcohol" Hint="" />
+			<Word Data="programmer" Hint="" />
+			<Word Data="calculator" Hint="" />
+			<Word Data="computer" Hint="" />
+			<Word Data="spaghetti" Hint="" />
+			<Word Data="camera" Hint="" />
+			<Word Data="mobile" Hint="" />
+			<Word Data="bible" Hint="" />
+			<Word Data="lighter" Hint="" />
+			<Word Data="cinema" Hint="" />
+			<Word Data="forest" Hint="" />
 		</Difficulty>
 		<Difficulty Level="2">
-			<Word Data="difficulty" />
-			<Word Data="laser" />
-			<Word Data="island" />
-			<Word Data="romeo" />
-			<Word Data="universe" />
-			<Word Data="pillow" />
-			<Word Data="starship" />
-			<Word Data="original" />
-			<Word Data="vegetable" />
-			<Word Data="fruits" />
-			<Word Data="newspaper" />
-			<Word Data="wire" />
+			<Word Data="difficulty" Hint="" />
+			<Word Data="laser" Hint="" />
+			<Word Data="island" Hint="" />
+			<Word Data="romeo" Hint="" />
+			<Word Data="universe" Hint="" />
+			<Word Data="pillow" Hint="" />
+			<Word Data="starship" Hint="" />
+			<Word Data="original" Hint="" />
+			<Word Data="vegetable" Hint="" />
+			<Word Data="fruits" Hint="" />
+			<Word Data="newspaper" Hint="" />
+			<Word Data="wire" Hint="" />
 		</Difficulty>
 	</WordsList>
 </ScrambleWords>
