@@ -28,7 +28,11 @@ function SetExpTable_Master(MasterLevel, MaxNormalLevel)
 	Exp = Exp + ( ((TotalLevel - 255) + 9) * (TotalLevel - 255) * (TotalLevel - 255) * 1000)
 	Exp = (Exp - 3892250000) / 2
 	
-	if (MasterLevel > 400) then
+	if (MasterLevel > 600) then
+		Exp = SetExpTable_Master(MasterLevel - 1, MaxNormalLevel)
+		Exp = Exp + 80224359459 + (1500000000 * (MasterLevel - 601))
+		
+	elseif (MasterLevel > 400) then
 		Exp = SetExpTable_Master(MasterLevel - 1, MaxNormalLevel)
 		Exp = Exp + 19024359459 + (300000000 * (MasterLevel - 401))
 
