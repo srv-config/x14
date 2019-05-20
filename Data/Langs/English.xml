@@ -781,6 +781,10 @@
 		<Msg ID="754" Text="Event is not ongoing now!" />
 		<Msg ID="755" Text="Wrong Answer, try again" />
 		<Msg ID="756" Text="Congratulations - this answer is correct!" />
+		<Msg ID="757" Text="Difficulty Level: %d Hint: %s" />
+		<Msg ID="758" Text="Next round will start after %d minutes" />
+		<Msg ID="759" Text="%s has successfully guessed word: %s!" />
+		<Msg ID="760" Text="Scramble Words" />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
