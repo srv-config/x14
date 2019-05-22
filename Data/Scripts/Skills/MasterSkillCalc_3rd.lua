@@ -558,7 +558,7 @@ function ChaoticDiseier_Master_Lord(InDamage, Energy)
 end
 
 -- SkillID: 454, Sleep Strengthener - MvP - (Dimension Master)
-function Sleep_Monster(Energy, Curse, MonsterLevel)
+function Sleep_Monster_Level1(Energy, Curse, MonsterLevel)
 	local SkillSuccessRate = Energy / 30 + Curse / 6 + 20
 	local SkillTime = Energy / 100 + 5 - MonsterLevel / 20
 	
@@ -566,7 +566,7 @@ function Sleep_Monster(Energy, Curse, MonsterLevel)
 end
 
 -- SkillID: 454, Sleep Strengthener - PvP - (Dimension Master)
-function Sleep_PvP(Energy, Curse, PlayerLevel, TargetLevel)
+function Sleep_PvP_Level1(Energy, Curse, PlayerLevel, TargetLevel)
 	local SkillSuccessRate = Energy / 37 + Curse / 6 + 15
 	local SkillTime = Energy / 250 + (PlayerLevel - TargetLevel) / 100 + 4
 	
@@ -600,7 +600,7 @@ function LightningShock_Master_Summoner(InDamage, Energy)
 end
 
 -- SkillID: 459, Weakness Strengthener - MvP - (Dimension Master)
-function SummonerWeakness_Monster(Energy, Curse, MonsterLevel)
+function SummonerWeakness_Monster_Level1(Energy, Curse, MonsterLevel)
 	local SkillSuccessRate = Energy / 50 + Curse / 6 + 32
 	local SkillEffect = Energy / 58 + 4
 	local SkillTime = Energy / 100 + 4 - MonsterLevel / 20
@@ -609,7 +609,7 @@ function SummonerWeakness_Monster(Energy, Curse, MonsterLevel)
 end
 
 -- SkillID: 459, Weakness Strengthener - PvP - (Dimension Master)
-function SummonerWeakness_PvP(Energy, Curse, PlayerLevel, TargetLevel)
+function SummonerWeakness_PvP_Level1(Energy, Curse, PlayerLevel, TargetLevel)
 	local SkillSuccessRate =  Energy / 50 + Curse / 6 + 17
 	local SkillEffect = Energy / 93 + 3
 	local SkillTime = Energy / 300 + (PlayerLevel - TargetLevel) / 150 + 5
@@ -618,7 +618,7 @@ function SummonerWeakness_PvP(Energy, Curse, PlayerLevel, TargetLevel)
 end
 
 -- SkillID: 460, Innovation Strengthener - MvP - (Dimension Master)
-function SummonerInnovation_Monster(Energy, Curse, MonsterLevel)
+function SummonerInnovation_Monster_Level1(Energy, Curse, MonsterLevel)
 	local SkillSuccessRate = Energy / 50 + Curse / 6 + 32
 	local SkillEffect = Energy / 90 + 20
 	local SkillTime = Energy / 100 + 4 - MonsterLevel / 20
@@ -627,7 +627,7 @@ function SummonerInnovation_Monster(Energy, Curse, MonsterLevel)
 end
 
 -- SkillID: 460, Innovation Strengthener - PvP - (Dimension Master)
-function SummonerInnovation_PvP(Energy, Curse, PlayerLevel, TargetLevel)
+function SummonerInnovation_PvP_Level1(Energy, Curse, PlayerLevel, TargetLevel)
 	local SkillSuccessRate =  Energy / 50 + Curse / 6 + 17
 	local SkillEffect = Energy / 110 + 12
 	local SkillTime = Energy / 300 + (PlayerLevel - TargetLevel) / 150 + 5
@@ -698,7 +698,7 @@ function ChainDrive_Master(InDamage, Vitality)
 end
 
 -- SkillID: 563, Dark Side Strengthener - (Fist Master)
-function RageFighterDarkSideIncDamage(InDamage, Dexterity, Energy)
+function RageFighterDarkSideIncDamage_Master(InDamage, Dexterity, Energy)
 	local OutDamage = (Dexterity / 8 + InDamage + Energy / 10) * (Dexterity / 8 + Energy / 10 + 100) / 100.0
  
 	return OutDamage
