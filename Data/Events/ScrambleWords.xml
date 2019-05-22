@@ -11,8 +11,16 @@
 // ### ScrambleWords::Event ###
 //	Enable: Activate or deactivates the event, 0/1
 //	MaxRounds: Maximum number of round per level
+//	TimeToStartMinutes: Notify time befoe event starts, minutes
 //	MaxEventTimeMinutes: Maximum event time in case of inactivity, minutes
 //	DifficultyLevelUp: Number of rounds to advance to next level
+//	NotifyWinner: Displays a message about round winner
+//
+// ### ScrambleWords::ChatMessage ###
+//	Enable: If enabled the words typed by the player participating the event will be visible in general chat by all players
+//	Red: Color Code (R)
+//	Green: Color Code (G)
+//	Blue: Color Code (B)
 //
 // ### ScrambleWords::DifficultyLevelReward::Difficulty ###
 //	Level: Difficulty level:
@@ -33,6 +41,7 @@
 //
 // ### ScrambleWords::WordsList::Difficulty::Word ###
 //	Data: A word to guess, no spaces or special characters for now
+//	Hint: A hint that will be displayed for linked word
 //
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ For answer command check Commands.ini: /scramble <word>
