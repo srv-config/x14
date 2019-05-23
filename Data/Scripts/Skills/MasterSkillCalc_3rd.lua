@@ -186,7 +186,7 @@ function MultiShotCalc_Master_Elf(InDamage, Dexterity, Energy)
 end
 
 -- SkillID: 413, Heal Strengthener - (High Elf)
-function ElfHeal(Class, Index, TargetIndex, Energy)
+function ElfHeal_Level1(Class, Index, TargetIndex, Energy)
 	local SkillEffect = 0
 	
 	if (Index ~= TargetIndex) then
