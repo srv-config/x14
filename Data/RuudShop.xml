@@ -181,7 +181,7 @@
 		<Item Cat="13" Index="356"	Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Helm of Sealed Revenge -->
 		<Item Cat="13" Index="357"	Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Pants of Sealed Revenge -->
 		<Item Cat="13" Index="358"	Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Gloves of Sealed Revenge -->
-		<Item Cat="2" Index="32"	Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Blood Angel Rune Mace -->
+		<Item Cat="2" Index="32"	Level="0" Skill="0" Luck="0" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Blood Angel Rune Mace -->
 		<Item Cat="15"  Index="39"	Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0"  Duration="0" Price="1000" /> <!-- Lightning Storm -->
 	</Character>
 </RuudShop>
