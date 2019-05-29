@@ -2860,7 +2860,7 @@
 	<Map Number="34" Name="Crywolf">
 		<Spot Type="0" Description="NPC/Traps">
 			<Spawn Index="226" Distance="0" StartX="135" StartY="47" Dir="2" /> <!-- Trainer -->
-			<Spawn Index="256" Distance="0" StartX="96" StartY="25" Dir="2" /> <!-- Lahap -->
+			<!-- <Spawn Index="256" Distance="0" StartX="96" StartY="25" Dir="2" /> --> <!-- Lahap -->
 			<!-- <Spawn Index="251" Distance="0" StartX="145" StartY="14" Dir="1" /> --> <!-- Hanzo the Blacksmith ~ shop managed via ShopList.xml -->
 			<Spawn Index="240" Distance="0" StartX="113" StartY="56" Dir="2" /> <!-- Safety Guardian -->
 			<Spawn Index="224" Distance="0" StartX="118" StartY="11" Dir="4" /> <!-- Guardsman -->
@@ -3531,7 +3531,7 @@
 	</Map>
 	<Map Number="51" Name="Elbeland">
 		<Spot Type="0" Description="NPC/Traps">
-			<Spawn Index="256" Distance="0" StartX="37" StartY="241" Dir="1" /> <!-- Lahap -->
+			<!-- <Spawn Index="256" Distance="0" StartX="37" StartY="241" Dir="1" /> --> <!-- Lahap -->
 			<!-- <Spawn Index="415" Distance="0" StartX="44" StartY="229" Dir="1" /> --> <!-- Silvia ~ shop managed via ShopList.xml -->
 			<!-- <Spawn Index="416" Distance="0" StartX="29" StartY="236" Dir="2" /> --> <!-- Rhea ~ shop managed via ShopList.xml -->
 			<!-- <Spawn Index="417" Distance="0" StartX="36" StartY="219" Dir="2" /> --> <!-- Marce ~ shop managed via ShopList.xml -->
