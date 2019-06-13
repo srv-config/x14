@@ -900,6 +900,10 @@
 		<Msg ID="120" Text="Deep Dungeon 5" />
 		<Msg ID="121" Text="Fourth Quest Area" />
 		<Msg ID="122" Text="Swamp of Darkness" />
-		<Msg ID="123" Text="Kubera Mine" />
+		<Msg ID="123" Text="Kubera Mine (Fire)" />
+		<Msg ID="124" Text="Kubera Mine (Water)" />
+		<Msg ID="125" Text="Kubera Mine (Earth)" />
+		<Msg ID="126" Text="Kubera Mine (Wind)" />
+		<Msg ID="127" Text="Kubera Mine (Darkness)" />
 	</Map>
 </Language>

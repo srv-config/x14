@@ -40,17 +40,17 @@
 //		~ 128: Copy all options from main material item, including item level and durability
 //
 //	SuccessRate: Maximum successs rate of the mix
-//	MaterialID1: Main material ID to use for the mix
+//	MaterialID1: Main material ID to use for the mix, -1 if not applies
 //	MaterialCnt1: Count of main materials
-//	MaterialID2: Material 2 for the mix
+//	MaterialID2: Material 2 for the mix, -1 if not applies
 //	MaterialCnt2: Count of material 2
-//	MaterialID3: Material 3 for the mix
+//	MaterialID3: Material 3 for the mix, -1 if not applies
 //	MaterialCnt3: Count of material 3
-//	MaterialID4: Material 4 for the mix
+//	MaterialID4: Material 4 for the mix, -1 if not applies
 //	MaterialCnt4: Count of material 4
-//	MaterialID5: Material 5 for the mix
+//	MaterialID5: Material 5 for the mix, -1 if not applies
 //	MaterialCnt5: Count of material 5
-//	MaterialID6: Material 6 for the mix
+//	MaterialID6: Material 6 for the mix, -1 if not applies
 //	MaterialCnt6: Count of material 6
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ For material IDs refer to see CombinationMaterials section
