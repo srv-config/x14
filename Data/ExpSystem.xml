@@ -9,7 +9,7 @@
 // ============================================================
 //
 // ### ExpSystem ###
-//	CalcType: Defines formula ID from FormulaData.xml -> ExpSystem section, default configuration offers below formulas:
+//	CalcType: Defines formula ID used in ExpCalc.lua -> ExpSystemCalc function, default configuration offers below formulas:
 //		0: Static exp only
 //				~ StaticExp + (EventExp + VipExp + BonusEvent + MapBonusExp)
 //		1: Static plus Dynamic
@@ -26,7 +26,7 @@
 //	NonVipAdjuster: Value used to adjust experience multiplier for non VIP players, use wisely.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ If value is set to different than 0 and player status is non VIP then value of NonVipAdjuster is used, see explanation below.
-//~~ VipExp attribute used in ExpSystem formulas of FormulaData.xml is always set to 1.0 for non VIP players
+//~~ VipExp attribute used in ExpSystem formulas of ExpCalc.lua is always set to 1.0 for non VIP players
 //~~ It may cause unexpected additional bonus for non VIP players if VipExp is used as components of the sum and not as multiplier.
 //~~ E.g. StaticExp + VipExp * 4 (StaticExp is 5, VipExp for VIP is set to 3). Calculation for non VIP player would look as follows:
 //~~ 5 + 1 * 4 = x9, for VIP player it would look like: 5 + 3 * 4 = x17. It means that non VIP player gains extra benefit of 4 (1*4)
@@ -39,7 +39,7 @@
 // ### ExpSystem::StaticExp ###
 //	Normal: The normal experience multiplier, float 
 //	Master: The master experience multiplier, third character class of minimum level of "MaxNormalLevel", float
-//	Majestic: The majestic experience multiplier, fourth character class of minimum level of "MaxLevelFor3rdClass", float
+//	Majestic: The majestic experience multiplier, fourth character class of minimum level of "MaxMasterLevelFor3rdClass", float
 //	Event: The event experience bonus, float
 //	Quest: The quest experience multiplier (quests received from Quests System), float
 //

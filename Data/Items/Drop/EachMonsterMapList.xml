@@ -67,9 +67,9 @@
 	<Map Number="119" FileName="MonsterMap_(119)_Bag.xml" />
 	<Map Number="120" FileName="MonsterMap_(120)_Bag.xml" />
 	<Map Number="122" FileName="MonsterMap_(122)_Bag.xml" />
-	<Map Number="122" FileName="MonsterMap_(123)_Bag.xml" />
-	<Map Number="122" FileName="MonsterMap_(124)_Bag.xml" />
-	<Map Number="122" FileName="MonsterMap_(125)_Bag.xml" />
-	<Map Number="122" FileName="MonsterMap_(126)_Bag.xml" />
-	<Map Number="122" FileName="MonsterMap_(127)_Bag.xml" />
+	<Map Number="123" FileName="MonsterMap_(123)_Bag.xml" />
+	<Map Number="124" FileName="MonsterMap_(124)_Bag.xml" />
+	<Map Number="125" FileName="MonsterMap_(125)_Bag.xml" />
+	<Map Number="126" FileName="MonsterMap_(126)_Bag.xml" />
+	<Map Number="127" FileName="MonsterMap_(127)_Bag.xml" />
 </EachMonsterMapList>

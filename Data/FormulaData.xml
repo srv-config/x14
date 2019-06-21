@@ -44,16 +44,6 @@
 //	PartyExp = Formula 4
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-// ### FormulaData::Exp::ExpSystem ###
-//	ID: Next unique ID of formula, starts from 0
-//	Data: The formula data
-//		StaticExp: Represents static exp
-//		DynamicExp: Represents dynamic exp
-//		EventExp: Represents event exp
-//		VipExp: Represents VIP exp
-//		BonusEvent: Represents exp bonus from bonus event
-//		MapBonusExp: Represents exp bonus per map
-//
 // ### FormulaData::ExcellentOption::Formula ###
 //	ID: Next unique ID of formula, starts from 0
 //	Data: The formula data, no spaces
@@ -100,15 +90,6 @@
 		<!-- <Formula ID="7" Data="((((%d+700)*15)+(((((%d+700)*15)*0.2)/500)*(%d-(%d+700))))-(((%d-(%d+700))*15)+(((((%d-(%d+700))*15)*0.2)/500)*(%d-(%d+700)))*((1+((%d-(%d+700))^1.1)/1000))*0.3))" /> -->
 		<Formula ID="5" Data="1" /> <!-- TotalLevel, MonsterExpLevel -->
 	</Exp>
-	
-	<ExpSystem>
-		<Formula ID="0" Data="%lf+(%lf+%lf+%lf+%lf)" /> <!-- StaticExp, EventExp, VipExp, BonusEvent, MapBonusExp -->
-		<Formula ID="1" Data="%lf+%lf+(%lf+%lf+%lf+%lf)" /> <!-- StaticExp, DynamicExp, EventExp,VipExp, BonusEvent, MapBonusExp -->
-		<Formula ID="2" Data="%lf*%lf+(%lf+%lf+%lf+%lf)" /> <!-- StaticExp, DynamicExp, EventExp, VipExp, BonusEvent, MapBonusExp -->
-		<Formula ID="3" Data="%lf+(%lf+%lf+%lf+%lf)" /> <!-- DynamicExp, EventExp, VipExp, BonusEvent, MapBonusExp -->
-		<Formula ID="4" Data="(%lf+%lf+%lf+%lf+%lf)*%lf" /> <!-- StaticExp, EventExp, VipExp, BonusEvent, MapBonusExp, DynamicExp -->
-		<Formula ID="5" Data="(%lf+%lf+%lf+%lf+%lf)*%lf" /> <!-- StaticExp, DynamicExp, EventExp, BonusEvent, MapBonusExp, VipExp -->
-	</ExpSystem>
 
 	<ExcellentOption>
 		<Formula ID="0" Data="(%d/100)*(%d/20)" /> <!-- ItemDropLevel, PlayerLevel -->

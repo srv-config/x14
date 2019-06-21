@@ -46,3 +46,23 @@ function SetExpTable_Master(MasterLevel, MaxNormalLevel)
 	
 	return Exp
 end
+
+function ExpSystemCalc(FormulaID, StaticExp, DynamicExp, EventExp, VipExp, BonusEvent, MapBonusExp)
+	local Exp = 0
+
+	if (FormulaID == 0) then
+		Exp = StaticExp+(EventExp+VipExp+BonusEvent+MapBonusExp);
+	elseif (FormulaID == 1) then
+		Exp = StaticExp+DynamicExp+(EventExp+VipExp+BonusEvent+MapBonusExp);
+	elseif (FormulaID == 2) then
+		Exp = StaticExp*DynamicExp+(EventExp+VipExp+BonusEvent+MapBonusExp);
+	elseif (FormulaID == 3) then
+		Exp = DynamicExp+(EventExp+VipExp+BonusEvent+MapBonusExp);
+	elseif (FormulaID == 4) then
+		Exp = (StaticExp+EventExp+VipExp+BonusEvent+MapBonusExp)*DynamicExp;
+	elseif (FormulaID == 5) then
+		Exp = (StaticExp+DynamicExp+EventExp+BonusEvent+MapBonusExp)*VipExp;
+	end
+
+	return Exp;
+end
