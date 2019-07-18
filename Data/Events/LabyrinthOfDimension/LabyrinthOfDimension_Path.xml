@@ -8,9 +8,33 @@
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
 //
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Changes to the file must be reflected in client side, section 3 of LabyrinthOfDimensionInfo.txt (Lang.mpr)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### LabyrinthOfDimension::Path ###
+//	ID: Unique ID of path, starting at 1
+//	Rows: Number of rows of maze board 
+//	Columns: Number of columns of maze board
+//
+// ### LabyrinthOfDimension::Path::Move ###
+//	Row: Actual row number of the board
+//	Column: Actual column number of the board
+//	MapID: ID of the map to render, for definitions refer to EventMaps section of LabyrinthOfDimension.xml
+//	AreaType: Type of area, for area types definitions refer to LabyrinthOfDimension.xml
+//	AreaIndex: Index of area, for area types definitions refer to LabyrinthOfDimension.xml
+//	Top: Top portal within maze area
+//	Bottom: Bottom portal within maze area
+//	Left: Left portal within maze area
+//	Right: Right portal within maze area
+//		~ 0: No portal, closed
+//		~ 1: Normal portal, no mission
+//		~ 2: Mission portal
+//		~ 3: Passing the portal requires Dimensional Key, not in use currently
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
+
 <LabyrinthOfDimension>
 	<Path ID="1" Rows="10" Columns="10">
 		<Move Row="0" Column="0" MapID="20" AreaType="3" AreaIndex="4" Top="0" Bottom="2" Left="0" Right="0" />
