@@ -73,8 +73,8 @@
 	<Item GUID="4" ID="4" Cat="14" Index="75" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="1" Duration="4320" Description="Scroll of Wizardry(3Day)" />
 	<Item GUID="5" ID="5" Cat="14" Index="74" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="1" Duration="4320" Description="Scroll of Wrath(3Day)" />
 	<Item GUID="6" ID="6" Cat="13" Index="80" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="2" Duration="2" Description="Pet Panda(3Day)" />
-	<Item GUID="7" ID="7" Cat="13" Index="110" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="7200" Description="Ruby Ring(5Day)" />
-	<Item GUID="8" ID="8" Cat="13" Index="111" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="7200" Description="Topaz Ring(5Day)" />
+	<Item GUID="7" ID="7" Cat="13" Index="110" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="7200" Description="Ruby Ring(5Day)" />
+	<Item GUID="8" ID="8" Cat="13" Index="111" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="7200" Description="Topaz Ring(5Day)" />
 	<Item GUID="9" ID="9" Cat="13" Index="43" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="1" Duration="1440" Description="Seal of Ascension" />
 	<Item GUID="9" ID="10" Cat="13" Index="43" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="1" Duration="4320" Description="Seal of Ascension" />
 	<Item GUID="9" ID="11" Cat="13" Index="43" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="1" Duration="10080" Description="Seal of Ascension" />
@@ -169,20 +169,20 @@
 	<Item GUID="60" ID="100" Cat="13" Index="80" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Pet Panda" />
 	<Item GUID="61" ID="101" Cat="13" Index="123" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Pet Skeleton" />
 	<Item GUID="61" ID="102" Cat="13" Index="123" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Pet Skeleton" />
-	<Item GUID="62" ID="103" Cat="13" Index="109" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="1" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Sapphire Ring" />
-	<Item GUID="62" ID="104" Cat="13" Index="109" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="1" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Sapphire Ring" />
-	<Item GUID="63" ID="105" Cat="13" Index="110" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Ruby Ring" />
-	<Item GUID="63" ID="106" Cat="13" Index="110" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Ruby Ring" />
-	<Item GUID="64" ID="107" Cat="13" Index="111" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Topaz Ring" />
-	<Item GUID="64" ID="108" Cat="13" Index="111" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Topaz Ring" />
-	<Item GUID="65" ID="109" Cat="13" Index="112" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="2" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Amethyst Ring" />
-	<Item GUID="65" ID="110" Cat="13" Index="112" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="2" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Amethyst Ring" />
-	<Item GUID="66" ID="111" Cat="13" Index="113" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Ruby Necklace" />
-	<Item GUID="66" ID="112" Cat="13" Index="113" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Ruby Necklace" />
-	<Item GUID="67" ID="113" Cat="13" Index="114" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="3" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Emerald Necklace" />
-	<Item GUID="67" ID="114" Cat="13" Index="114" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="3" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Emerald Necklace" />
-	<Item GUID="68" ID="115" Cat="13" Index="115" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Sapphire Necklace" />
-	<Item GUID="68" ID="116" Cat="13" Index="115" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Sapphire Necklace" />
+	<Item GUID="62" ID="103" Cat="13" Index="109" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="1" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Sapphire Ring" />
+	<Item GUID="62" ID="104" Cat="13" Index="109" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="1" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Sapphire Ring" />
+	<Item GUID="63" ID="105" Cat="13" Index="110" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Ruby Ring" />
+	<Item GUID="63" ID="106" Cat="13" Index="110" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Ruby Ring" />
+	<Item GUID="64" ID="107" Cat="13" Index="111" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Topaz Ring" />
+	<Item GUID="64" ID="108" Cat="13" Index="111" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Topaz Ring" />
+	<Item GUID="65" ID="109" Cat="13" Index="112" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="2" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Amethyst Ring" />
+	<Item GUID="65" ID="110" Cat="13" Index="112" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="2" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Amethyst Ring" />
+	<Item GUID="66" ID="111" Cat="13" Index="113" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Ruby Necklace" />
+	<Item GUID="66" ID="112" Cat="13" Index="113" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Ruby Necklace" />
+	<Item GUID="67" ID="113" Cat="13" Index="114" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="3" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Emerald Necklace" />
+	<Item GUID="67" ID="114" Cat="13" Index="114" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="3" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Emerald Necklace" />
+	<Item GUID="68" ID="115" Cat="13" Index="115" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Sapphire Necklace" />
+	<Item GUID="68" ID="116" Cat="13" Index="115" Level="0" Durability="255" Skill="0" Luck="0" Option="3" Exc="5" Set="0" SocketCount="0" Element="0" Type="2" Duration="10080" Description="Sapphire Necklace" />
 	<Item GUID="69" ID="117" Cat="14" Index="112" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Silver Key" />
 	<Item GUID="70" ID="118" Cat="14" Index="113" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Gold Key" />
 	<Item GUID="71" ID="119" Cat="13" Index="107" Level="0" Durability="255" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="Critical Ring of Wizard" />
@@ -246,7 +246,7 @@
 	<Item GUID="119" ID="178" Cat="13" Index="64" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="D-Demon" />
 	<Item GUID="120" ID="179" Cat="14" Index="98" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="1" Duration="1440" Description="D-Scroll of Strengthener" />
 	<Item GUID="121" ID="180" Cat="13" Index="105" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="1" Duration="1440" Description="D-SD Boost Aura" />
-	<Item GUID="122" ID="181" Cat="13" Index="113" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="D-Ruby Necklace" />
+	<Item GUID="122" ID="181" Cat="13" Index="113" Level="0" Durability="0" Skill="0" Luck="0" Option="3" Exc="0" Set="0" SocketCount="0" Element="0" Type="2" Duration="1440" Description="D-Ruby Necklace" />
 	<Item GUID="123" ID="182" Cat="14" Index="53" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="B-Talisman of Luck" />
 	<Item GUID="124" ID="183" Cat="14" Index="112" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="B-Silver Key" />
 	<Item GUID="125" ID="184" Cat="14" Index="112" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="B-1 Silver Key" />
@@ -711,11 +711,11 @@
 	<Item GUID="564" ID="651" Cat="14" Index="52" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="GM Gift Box" />
 	<Item GUID="565" ID="652" Cat="13" Index="67" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Pet Rudolph" />
 	<Item GUID="566" ID="653" Cat="13" Index="68" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Snowman Transformation Ring" />
-	<Item GUID="567" ID="654" Cat="13" Index="114" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="3" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Emerald Necklace" />
-	<Item GUID="568" ID="655" Cat="13" Index="115" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="5" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Sapphire Necklace" />
-	<Item GUID="569" ID="656" Cat="13" Index="111" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="5" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Topaz Ring" />
-	<Item GUID="570" ID="657" Cat="13" Index="110" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="0" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Ruby Ring" />
-	<Item GUID="571" ID="658" Cat="13" Index="109" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Sapphire Ring" />
+	<Item GUID="567" ID="654" Cat="13" Index="114" Level="0" Durability="0" Skill="0" Luck="0" Option="3" Exc="3" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Emerald Necklace" />
+	<Item GUID="568" ID="655" Cat="13" Index="115" Level="0" Durability="0" Skill="0" Luck="0" Option="3" Exc="5" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Sapphire Necklace" />
+	<Item GUID="569" ID="656" Cat="13" Index="111" Level="0" Durability="0" Skill="0" Luck="0" Option="3" Exc="5" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Topaz Ring" />
+	<Item GUID="570" ID="657" Cat="13" Index="110" Level="0" Durability="0" Skill="0" Luck="0" Option="3" Exc="0" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Ruby Ring" />
+	<Item GUID="571" ID="658" Cat="13" Index="109" Level="0" Durability="0" Skill="0" Luck="0" Option="3" Exc="1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Sapphire Ring" />
 	<Item GUID="572" ID="659" Cat="13" Index="48" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Kalima Ticket " />
 	<Item GUID="573" ID="660" Cat="13" Index="46" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Devil Square Ticket" />
 	<Item GUID="574" ID="661" Cat="13" Index="47" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="0" Duration="0" Description="Blood Castle Ticket" />
