@@ -17,7 +17,10 @@
 //	EarlyFinishRestriction: Allows to activate restriction preventing completing the event before time specified in EarlyFinishMinTime
 //	EarlyFinishMinTime: Minimum event time the event can be completed (weapon can be returned to Archangel), seconds
 //	MonsterKillReqPerPlayer: Count of monster required to kill to get the bridge to fall down
-//	
+//
+// ### BloodCastle::Monster ###
+//	TimeToRegen: Time to respawn monster, seconds
+//
 // ### BloodCastle::Time ###
 //	ToOpen: Time the event will be opened from event start notification moment, minutes
 //	PlayDuration: Event duration, minutes
@@ -45,6 +48,7 @@
 -->
 
 <BloodCastle Enable="1" EarlyFinishRestriction="0" EarlyFinishMinTime="300" MonsterKillReqPerPlayer="40">
+<Monster TimeToRegen="10" />
 <Time ToOpen="5" PlayDuration="15" ToClose="1" />
 
 	<Schedule>

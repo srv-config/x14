@@ -785,6 +785,14 @@
 		<Msg ID="758" Text="Next round will start after %d minutes" />
 		<Msg ID="759" Text="%s has successfully guessed word: %s!" />
 		<Msg ID="760" Text="Scramble Words" />
+		<Msg ID="761" Text="Awakening success, the awakening monsters will appear shortly." />
+		<Msg ID="762" Text="Awakening has failed because of the failure of probability." />
+		<Msg ID="763" Text="Awakening failed, the user with authority is not within the effective range." />
+		<Msg ID="764" Text="Awakening failure, party members have awakening privilege: %s" />
+		<Msg ID="765" Text="Awakening failure, there are compensating users among party members: %s" />
+		<Msg ID="766" Text="Awakening failure, Awakening Monster is in compensation status." />
+		<Msg ID="767" Text="Awakening is not a monster with a failure or permission relationship." />
+		<Msg ID="768" Text="%s has earned %s." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
