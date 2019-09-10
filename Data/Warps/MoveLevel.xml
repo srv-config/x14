@@ -10,6 +10,7 @@
 //
 // ### MoveSettings::Move ###
 //	Level: Minimum required level for summoning - regular level only
+//  MaxLevel: Maximum level to warp to the map. (optional)
 //	MapNumber: Number of Map
 //	StartX: Start X Coordinate of the range covered by the restriction
 //	StartY: Start Y Coordinate of the range covered by the restriction

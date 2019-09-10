@@ -793,6 +793,7 @@
 		<Msg ID="766" Text="Awakening failure, Awakening Monster is in compensation status." />
 		<Msg ID="767" Text="Awakening is not a monster with a failure or permission relationship." />
 		<Msg ID="768" Text="%s has earned %s." />
+		<Msg ID="769" Text="Max level for warping to specified location is %d." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />

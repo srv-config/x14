@@ -20,6 +20,7 @@
 //	ServerName: Display name for purpose of Server usage
 //	ClientName: Display name for purpose of Game Client usage
 //	MinLevel: Minimum Level requires to use the warp
+//  MaxLevel: Maximum level to warp to the map. (optional)
 //	ReqMoney: Money (Zen) collected for warp usage
 //	ReqVipLevel: Minimum Vip Level to allow to use the warp, 0 for no Vip required
 //	GateNumber: Number of a Gate to use for the warp

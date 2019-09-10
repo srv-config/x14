@@ -38,13 +38,13 @@
 -->
 
 <ComboSettings Enabled="0">
-	<Class Id="0" StaminaCost="5" > <!-- Dark Wizard -->
+	<Class Id="0" StaminaCost="5" ComboTriggerCount="3"> <!-- Dark Wizard -->
 		<Skill Pos="0" SkillId="17" /> <!-- Energy Ball -->
 		<Skill Pos="1" SkillId="12" /> <!-- Aqua beam -->
 		<Skill Pos="1" SkillId="14" /> <!-- Inferno -->
 	</Class>
 	
-	<Class Id="1" StaminaCost="5" > <!-- Dark Knight -->
+	<Class Id="1" StaminaCost="5" ComboTriggerCount="3"> <!-- Dark Knight -->
 		<Skill Pos="0" SkillId="19" />
 		<Skill Pos="0" SkillId="20" />
 		<Skill Pos="0" SkillId="21" />
@@ -72,43 +72,43 @@
 		<Skill Pos="1" SkillId="1072" />
 	</Class>
 	
-	<Class Id="2" StaminaCost="5" > <!-- Fairy Elf -->
+	<Class Id="2" StaminaCost="5" ComboTriggerCount="3"> <!-- Fairy Elf -->
 		<Skill Pos="0" SkillId="51" /> <!-- Ice Arrow -->
 		<Skill Pos="1" SkillId="52" /> <!-- Aqua beam -->
 		<Skill Pos="1" SkillId="235" /> <!-- Multi-Shot -->
 	</Class>
 	
-	<Class Id="3" StaminaCost="5" > <!-- Magic Gladiator -->
+	<Class Id="3" StaminaCost="5" ComboTriggerCount="3"> <!-- Magic Gladiator -->
 		<Skill Pos="0" SkillId="55" /> <!-- Fire Slash -->
 		<Skill Pos="1" SkillId="56" /> <!-- Power Slash -->
 		<Skill Pos="1" SkillId="237" /> <!-- Gigantic Storm -->
 	</Class>
 	
-	<Class Id="4" StaminaCost="5" > <!-- Dark Lord -->
+	<Class Id="4" StaminaCost="5" ComboTriggerCount="3"> <!-- Dark Lord -->
 		<Skill Pos="0" SkillId="78" /> <!-- Fire Scream -->
 		<Skill Pos="1" SkillId="61" /> <!-- Fire Burst -->
 		<Skill Pos="1" SkillId="238" /> <!-- Chaotic-Disaster -->
 	</Class>
 	
-	<Class Id="5" StaminaCost="5" > <!-- Summoner -->
+	<Class Id="5" StaminaCost="5" ComboTriggerCount="3"> <!-- Summoner -->
 		<Skill Pos="0" SkillId="214" /> <!-- drain life -->
 		<Skill Pos="1" SkillId="215" /> <!-- chain lightning -->
 		<Skill Pos="1" SkillId="230" /> <!-- Clightning shock -->
 	</Class>
 	
-	<Class Id="6" StaminaCost="5" > <!-- Rage Fighter-->
+	<Class Id="6" StaminaCost="5" ComboTriggerCount="3"> <!-- Rage Fighter-->
 		<Skill Pos="0" SkillId="261" /> <!-- Beast UpperCut -->
 		<Skill Pos="1" SkillId="262" /> <!-- dragon roar -->
 		<Skill Pos="1" SkillId="265" /> <!-- Chain drive -->
 	</Class>
 	
-	<Class Id="7" StaminaCost="5" > <!-- Grow Lancer -->
+	<Class Id="7" StaminaCost="5" ComboTriggerCount="3"> <!-- Grow Lancer -->
 		<Skill Pos="0" SkillId="20" /> <!-- Lunge -->
 		<Skill Pos="1" SkillId="274" /> <!-- Magic Pin -->
 		<Skill Pos="1" SkillId="271" /> <!-- Spin Step-->
 	</Class>
 	
-	<Class Id="8" StaminaCost="5" > <!-- Rune Wizard -->
+	<Class Id="8" StaminaCost="5" ComboTriggerCount="3"> <!-- Rune Wizard -->
 		<Skill Pos="0" SkillId="283" /> <!-- Magic Arrow -->
 		<Skill Pos="1" SkillId="284" /> <!-- Plasma ball -->
 		<Skill Pos="1" SkillId="285" /> <!-- Lightning Storm -->
